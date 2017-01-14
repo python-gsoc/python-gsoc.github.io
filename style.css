@@ -60,6 +60,11 @@ h1, h2, h3 {
 	padding-top: 50px;
 	color: #2955a3;
 }
+h4 {
+	color: #2955a3;
+	padding: 2px;
+	margin: 2px;
+}
 li {
 	padding-bottom: .5em;
 }
@@ -76,4 +81,15 @@ div.warning {
 	padding: 10px 10px 10px 64px;
 
 	background-image: url("warning.png");
+}
+table.ideas {
+	border-collapse: collapse;
+}
+td.logo {
+	max-width: 300px;
+}
+td {
+	border: 1pt solid #e5e5e5;
+	padding: 2px;
+	margin: 2px;
 }
