@@ -84,6 +84,7 @@ div.warning {
 }
 table.ideas {
 	border-collapse: collapse;
+	border: 1;
 }
 td.logo {
 	max-width: 300px;
