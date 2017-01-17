@@ -10,3 +10,6 @@ Since we had great success with moving the student blog information to
 github so people could use pull requests to update it, we're going to try to
 do the same with the info pages and see how it works out.
 
+You can view the live webpage at
+http://python-gsoc.github.io
+
