@@ -88,9 +88,18 @@ table.ideas {
 }
 td.logo {
 	max-width: 300px;
+	text-align: center;
 }
 td {
 	border: 1pt solid #e5e5e5;
 	padding: 2px;
 	margin: 2px;
+}
+
+td.waiting {
+	background: #FFFCBD;
+}
+
+td.good {
+	background: #D8FFBD;
 }
