@@ -47,6 +47,7 @@ a.sitename, a:visited.sitename {
 }
 
 .menu li a:hover {
+	transition: .5s all;
 	background-color: #ffb100;
 	color: white;
 	height: 50px;
@@ -71,20 +72,17 @@ li {
 
 div.warning {
 	border: 1pt solid #E5E5E5;
-	background-color: #F9F9FF;
 	color: black;
 
 	margin: 10pt 30pt 10pt 30pt;
-	background-repeat: no-repeat;
-	background-position: 8px 8px;
 	min-height: 45px;
 	padding: 10px 10px 10px 64px;
 
-	background-image: url("warning.png");
+	background: #F9F9FF url("warning.png") no-repeat 8px 8px;
 }
 table.ideas {
 	border-collapse: collapse;
-	border: 1;
+	border: 1px;
 }
 td.logo {
 	max-width: 300px;
