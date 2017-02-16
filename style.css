@@ -47,7 +47,6 @@ a.sitename, a:visited.sitename {
 }
 
 .menu li a:hover {
-	transition: .5s all;
 	background-color: #ffb100;
 	color: white;
 	height: 50px;
