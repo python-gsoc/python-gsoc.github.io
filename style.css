@@ -100,3 +100,7 @@ td.waiting {
 td.good {
 	background: #D8FFBD;
 }
+
+td.problem {
+	background: #D84040;
+}
