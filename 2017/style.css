@@ -1,0 +1,106 @@
+.fixed-nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 8888;
+	width: 100%;
+	height: 50px;
+	background-color: #d9d9d9;
+	border-bottom: 4px solid #2955a3;
+}
+.content {
+	margin-top: 60px;
+	margin-left: 2em;
+}
+
+.sitename {
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+a.sitename, a:visited.sitename {
+	color: #f0f0f0;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 50px;
+}
+
+.menu li a {
+	display: block;
+	margin: 0;
+	padding: 8px 16px;
+	height: 50px;
+	text-decoration: none;
+	color: #2955a3;
+}
+.menu li {
+	display: inline;
+	float: right;
+	height: 50px;
+	margin: 0;
+	font-size: 1.5em;
+}
+
+.menu li a:hover {
+	background-color: #ffb100;
+	color: white;
+	height: 50px;
+	margin: 0;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+h1, h2, h3 {
+	padding-top: 50px;
+	color: #2955a3;
+}
+h4 {
+	color: #2955a3;
+	padding: 2px;
+	margin: 2px;
+}
+li {
+	padding-bottom: .5em;
+}
+
+div.warning {
+	border: 1pt solid #E5E5E5;
+	color: black;
+
+	margin: 10pt 30pt 10pt 30pt;
+	min-height: 45px;
+	padding: 10px 10px 10px 64px;
+
+	background: #F9F9FF url("../warning.png") no-repeat 8px 8px;
+}
+table.ideas {
+	border-collapse: collapse;
+	border: 1px;
+}
+td.logo {
+	max-width: 300px;
+	text-align: center;
+}
+td {
+	border: 1pt solid #e5e5e5;
+	padding: 2px;
+	margin: 2px;
+}
+
+td.waiting {
+	background: #FFFCBD;
+}
+
+td.good {
+	background: #D8FFBD;
+}
+
+td.problem {
+	background: #D84040;
+}
