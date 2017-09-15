@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<title>Python Google Summer of Code Frequently Asked Questions</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Top navigation bar -->
+<nav class="fixed-nav-bar">
+  <div id="menu" class="menu">
+    <ul class="menu">
+      <li style="float:left"><a href="#"><img src="python-logo-45px.png"
+alt="Python logo" height="45" /></a>
+      <li><a href="#other">Other</a></li>
+      <li><a href="#mentoring">Mentoring</a></li>
+      <li><a href="#communication">Communication</a></li>
+      <li><a href="#gettingstarted">Getting Started</a></li>
+      <li><a href="#ToC">Table of Contents</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="content">
+
+
+<a name="ToC"></a>
+<h1>Python GSoC Frequently Asked Questions</h1>
+
+<ol>
+	<li><a href="#gettingstarted">Getting Started</li>
+		<ol>
+			<li><a href="#starting">How do I get started in open source?</a></li>
+			<li><a href="#choosing">How do I choose a project or sub-org?</a></li>
+			<li><a href="#knowledge">What do I need to know to participate in Summer of Code
+with Python??</a></li>
+		</ol>
+   <li><a href="#communication">Communication</a></li>
+		<ol>
+			<li><a href="#ask2ask">What does "don't ask to ask" mean?</a></li>
+			<li><a href="#unanswered">What should I do if no one answers my question?</a></li>
+			<li><a href="#dearsir">How should I address my emails? (or Why shouldn't I start
+my emails with "Dear Sir"?)</a></li>
+		</ol>
+   <li><a href="#mentoring">Mentoring</a></li>
+		<ol>
+			<li><a href="#mentor">What does it take to be a mentor?</a></li>
+		</ol>
+	<li><a href="#other">Other</a></li>
+		<ol>
+			<li><a href="#slots">How many slots does python get? How many slots does project
+$x get?</a></li>
+			<li><a href="#meflin">Why does Meflin always say no?</a></li>
+		</ol>
+</ol>
+
+<a name="gettingstarted"></a>
+<h2>Getting Started</h2>
+
+<a name="starting"></a>
+<h3>How do I get started in open source?</h3>
+We recommend 7 steps for getting started as an open source developer:
+
+<ol>
+	<li><strong>Choose an organization to work with.</strong>
+   <br />There's hundreds of thousands of projects that use Python, and you need to narrow
+down the list before you can get help or do much that's useful.  See <a
+href="#choosing">How do I choose a project or sub-org?</a> for ideas on how to do that.
+	<ul>
+		<li>Hint: Core Python development is not a great place for absolute beginners: you
+probably want a smaller project with more mentorship available as your first choice.</li>
+
+		<li><em>Any</em> open source experience will help you prepare for GSoC, so don't
+worry too much about what project you try first and don't be afraid to change your mind!</li>
+
+		<li>For GSoC applications, you'll need to choose from <a
+href="http://python-gsoc.org/#ideas">the list of accepted sub-orgs</a> (Or google's list
+of big orgs!).  If your favourite group isn't on the list, contact them to see if they're
+interested in participating.  Applications not associated with a known sub-org are usually
+rejected because we don't have mentors available.
+	</ul>
+
+	<li><strong>Set up your own development environment.</strong>
+	<br />Document what you do so you can remember it
+later, and so you can help others if they get stuck! And if you get stuck, don't be afraid
+to ask for help.
+
+	<li><strong>Start communicating with the developers.</strong>
+	<br />Join the mailing list, IRC channel, or any other
+communication channels the developers use. Listen, get to know the people involved, and
+ask questions.
+
+	<ul>
+   	<li>In almost all cases, you should communicate in public rather than in private. GSoC is
+a busy time for many developers and many beginner questions get asked repeatedly. Help
+keep your devs less stressed out by reading what they've written already and making it
+easier for them to have a record of the things they've answered.  Also, search those
+archives to make sure you're not asking something that's just been asked by someone else!
+
+    	<li>If you want to make the best first impressions, <a href="#dearsir">DO NOT start
+with "Dear Sir."</a> and <a href="#ask2ask">DO NOT ask to ask</a>.
+
+	</ul>
+
+	<li><strong>Find some beginner-friendly bugs and try to fix them.</strong>
+	<br />Many projects have these tagged as
+"easy" "bite-size" or "beginner-friendly"
+
+	<ul>
+    <li>Note that if you apply as a student with the PSF you will be asked to submit a code
+sample, generally code related to your project. A few fixed bugs with code accepted
+upstream will make your application look great!
+    <li>Having trouble figuring out which bugs are beginner-friendly? Check and see if anyone
+else has asked recently (usually during GSoC a *lot* of people are looking for easy bugs)
+and read the answer they got, but if no one's asked in a month or so, you can ask the
+developers via public mailing list or IRC. (Hint: don't ask privately; this is a question
+that other people want to know the answer to)
+	</ul>
+
+	<li><strong>Find bugs and report them.</strong>
+	<br />Hopefully you won't encounter too many, but it's always a good
+idea to get familiar with your project's bug reporting process.
+
+	<li><strong>Help with documentation.</strong>
+	<br />As a beginner in your project, you're going to see things that
+are confusing that more experienced developers may not notice. Take advantage of your
+beginner mindset and make sure to document anything you think is missing!
+
+	<li><strong>Help others.</strong>
+	<br />This is a great idea for a lot of reasons: explaining things can help you
+learn them better, demonstrating your skills as a good community member can make you more
+memorable when your mentors have to choose candidates, and being helpful makes your
+community a better place!
+</ol>
+
+
+<a name="choosing"></a>
+<h3>How do I choose a project or sub-org?</h3>
+<p>Choosing a project is a pretty personal choice. You should choose something you want to
+work on, and none of us can tell you exactly what that would be! But here's a few
+questions you might want to ask yourself to help figure that out:</p>
+
+<ul>
+    <li><strong>What software do you already use?</strong> If you use the software, you know a lot more about
+it and probably have stronger opinions about what would make it better!
+
+    <li><strong>What would you like to learn?</strong> GSoC is meant to be a bit of a learning opportunity.
+Have you always wanted to be more involved with biology? Astronomy? Mathematics?
+Education? See which projects might help you improve your skills.
+
+    <li><strong>Who do you like working with?</strong> Hang out where the developers do and get to know some of
+your potential mentors. Which developers inspire you?
+
+    <li><strong>How do you want to change the world?</strong> Do you want to help people learn more?
+Communicate better? Understand our world better? Lots of python projects can help you do
+social good!
+
+    <li><strong>How do you like to communicate?</strong> Do you like realtime communication on IRC? Perhaps you
+should choose a project with mentors close to you in time zone. Do you like asynchronous
+communication on mailing lists? Find a group with active lists. Communication is a big
+part of summer of code (or really any open source development in a team) to finding a team
+that works the way you want to work can make your summer more awesome.
+</ul>
+
+<p>There's a list of sub-orgs for this year and for previous years linked <a href="https://wiki.python.org/moin/SummerOfCode">here</a>
+Be aware that all sub orgs might not be able to participate every year, and make sure to
+check and see if they're planning to participate before assuming.
+
+<p><strong>If you're chosen as a GSoC student, you're going to be expected to make some decisions on
+your own, so you can make a better first impression on mentors by showing that you're able
+to narrow down your field of choices!</strong>
+
+
+<a name="knowledge"></a>
+<h3>What do I need to know to participate in Summer of Code
+with Python??</h3>
+
+<p>The answer to this depends a lot on the project you choose. We have a range of projects,
+from beginner to advanced. Each of the sub orgs expects different things from their
+students: maybe you'll need to know a bit about machine learning, or email, or image
+processing. The answer to this question is always <strong>ask your mentors what you will need to
+know for a specific project.</strong>
+
+<p>But a lot of people ask early on because they want to be sort of generically ready but
+they're not sure what they want to do yet, so that's not always super helpful.
+
+<p>So here's a list of a few things that are useful for most Python umbrella projects:
+
+<ul>
+    <li><strong>You need to have a bit of experience with Python.</strong> You can be a beginner, but
+practicing in advance is good! And there are a lot more projects available for students
+who are reasonably used to the language, so more practice means you'll have more project
+options.
+
+    <li><strong>You need to feel comfortable asking questions</strong>, because we're going to expect you to
+ask if you don't understand something.
+
+    <li><strong>You should be comfortable communicating your ideas to others in
+public.</strong> Most projects
+have public mailing lists and would prefer if you use them, and Python students will also
+be asked to blog about their work over the summer.  You can use a pseudonym (nickname) if
+that works best for you.  Google will need to know who you are to pay you, but we just
+need something to call you.
+
+    <li><strong>You probably want some experience with version control.</strong> We have a lot of projects that
+use different tools, such as git, mercurial, or bzr, and you can find out which one your
+project uses in advance and practice using it on your schoolwork or personal projects to
+get used to it.
+
+    <li><strong>You might like to take a bit of time to read <a
+href="https://www.python.org/dev/peps/pep-0008/">the python style guide,
+PEP8</a>.</strong> Not every
+project uses these rules, but they can give you a rough idea of what is considered
+"readable code" by most pythonistas. (And for fun, you might want to read the poetry of
+<a href="https://www.python.org/dev/peps/pep-0020/">PEP20 "The Zen of Python"</a>)
+</ul>
+</ol>
+
+
+<a name="communication"></a>
+<h2>Communication</h2>
+
+<a name="ask2ask"></a>
+<h3>What does "don't ask to ask" mean?</h3>
+<p>You'll hear this phrase sometimes on IRC, and it means "please just ask your question,
+don't say something like 'can I ask a question?' first."
+
+<p>Why? Developers are often pretty busy, and if you just ask the question, someone can jump
+in the minute they see your message with the answer or direct you to folk who can answer
+it better.
+
+<p>If you ask "can I ask a question?" you're basically just waiting for someone to say "yes"
+before any useful information is communicated. Many folk consider this slow, annoying, and
+perhaps even rude. Save everyone (including yourself!) some time and just ask the question
+right from the start. Culturally speaking, in open source projects it's generally ok
+launch right in to a question on IRC; you don't even have to say hi first!
+
+<a name="unanswered"></a>
+<h3>What should I do if no one answers my question?</h3>
+
+<ol>
+	<li><strong>Be patient.</strong> If you're on IRC, stick around for an hour or so (you can do something else,
+just leave the IRC window open and check back occasionally) and see if someone gets back
+to you. If they don't, try posting to the mailing list (it's possible all the developers
+are asleep!) If you're on a mailing list, you should give people around 24-48h to answer
+before worrying too much about it.
+
+	<li><strong>Make sure you're asking in the best place.</strong> One common mistake students make is to contact
+individual developers rather than asking on a public mailing list or a public IRC channel.
+You want as many people as possible to see your questions, so try not to be shy! (and
+don't worry about looking too much like a newbie -- all of us were new once!) Sometimes
+projects have different lists/irc channels/forums/bug queues for different types of
+questions. If you're not sure, do feel free to follow up your question with something like
+"hey, I haven't gotten an answer on this... is there somewhere better I could post it or
+more information you need to help?"
+
+	<li><strong>Try giving more information.</strong> If you've hit a bug, try to give the error message and
+information about your setup and information about what you've already tried. If you're
+trying to find a bit of documentation, indicate where you've already looked. And again
+"hey, I haven't got an answer... what other information could I provide to help debug this
+problem?" is a reasonable follow-up if you're not sure what people might need.
+
+	<li><strong>If you're really having trouble getting in touch with your mentors, talk to the Python org
+admins by emailing gsoc-admins(at)python.org</strong> The Python org admins should have contact
+info for mentors with each project and can help connect you. (Note: please don't complain
+that you can't get in touch with us on the general google lists or #gsoc. They're just
+going to redirect you to Terri and the other python org admins anyhow!)
+</ol>
+
+<a name="dearsir"></a>
+<h3>How should I address my emails? (or Why shouldn't I start
+my emails with "Dear Sir"?)</h3>
+
+<p>If you want to make the best first impression, <strong>DO NOT start emails with "Dear
+Sir."</strong> Python
+has many mentors who are female and/or prefer other forms of address. We realize you're
+trying to be polite, but "Dear Sir" is often perceived in our communities as alienating,
+rude or simply too formal and off-putting.
+
+<p>Try "Dear developers" or "Dear mentors" if you're sending a general email. If you're
+addressing a specific person, use the name or nickname that they use on their emails.
+Culturally speaking, first names or chosen nicknames are fine for most open source
+projects.
+
+
+<a name="mentoring"></a>
+<h2>Mentoring</h2>
+<a name="mentor"></a>
+<h3>What does it take to be a mentor?</h3>
+
+<ul>
+<li>We expect around a 0-10hr/week commitment, which sounds scary, but it's not actually that
+variable. You usually spend up to lots of time for the first few weeks, where you're
+fleshing out your ideas page, discussing projects with many students, and selecting
+students from their proposals. After students are selected, it becomes more like a 1hr
+commitment per week for a weekly meeting, and maybe a few more hours here and there for
+code review or questions. (That depends on your student: experienced students may need
+very little supervision, inexperienced students may need more. It also depends on you: You
+and your co-mentor(s) select the student and project you mentor, so you can choose
+according to the time commitment you have. Some mentors even do pair programming with
+their students!)
+<li>We want at least two mentors per projects, so hopefully no one ever gets overwhelmed and
+feels like they're always on call (Google does ask that we try to answer questions within
+48h so students can't get stuck for too long), and no one mentor has to know all the
+answers.
+<li>I recommend at least one mentor has a weekly 1hr meeting with the student so they get to
+know each other, keep everyone on track, and give a chance to talk about other stuff (lots
+of students have questions about jobs, courses, architecture, open source, etc. and it's
+nice to have someone to talk to). Some weeks this meeting may be the only mentoring time
+needed.
+<li>Mentors don't have to be the Best At Everything. A lot of what mentors do is keep students
+on track and keep them from getting stuck for too long. Sometimes that means just knowing
+who to ask or where to look rather than knowing the answer yourself. In an ideal world, at
+least one mentor can answer at least basic architectural questions and knows how to get
+code accepted upstream, though.
+<li>Mentors do have to do multiple evaluations on the student, two mid-terms and one at the end.
+(only one evaluation per student per period, though, so only one mentor needs to do this). There's a
+few questions about how the student is doing and then a pass/fail that determines if the
+student gets paid and continues in the program.
+</ul>
+
+
+<a name="other"></a>
+<h2>Other</h2>
+<a name="slots"></a>
+<h3>How many slots does python get? How many slots does project
+$x get?</h3>
+
+<p>We don't know our slot allocation until Google announces them, and google bases their
+numbers on the number of students we tell them we want. The more great applications we
+have, the more slots we'll request. So rather than worrying about the number of slots, you
+should be aiming to be such a memorable and great prospective student that your sub-org
+will definitely request a slot with you in mind.
+
+<p>For sub-orgs, new groups working with us usually get 1-2 slots, experienced sub-orgs may
+be granted as many as they can comfortably mentor at the discretion of the org admins.
+(The max number will likely be close to the total number of mentors divided by two, but
+the actual number requested depends on which students the org specifically wants to hire
+after they've done an initial review of the applications.)
+
+<p>Google has been incredibly generous with letting us have slots in previous years, so we
+are usually more limited by the matching of mentors with truly excellent students. We've
+had as many as 70 or fewer than 30 depending on the year.
+
+<a name="meflin"></a>
+<h3>Why does Meflin always say no?</h3>
+<p>He’s just like that! It's actually an incredibly important job: his job is to say no when
+things aren’t ready, so we can go back and make things more awesome. It's also his job to
+make sure that Terri's workload is reasonable, and that means saying NO pretty frequently.
+All those no’s make it possible to run this program every year!
+
+</div>
+</body>
+</html>
