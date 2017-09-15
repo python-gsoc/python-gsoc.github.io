@@ -71,141 +71,113 @@ to help you:
 	<li>Stephen Turnbull (yaseppochi on IRC)</li>
 </ul>
 
+<h3>Table of Contents</h3>
+<ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gettingstarted">Getting Started</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#students">Students</a></li>
+      <li><a href="#mentors">Mentors</a></li>
+      <li><a href="#ideas">Project Ideas</a></li>
+      <li><a href="#schedule">Deadlines</a></li>
+</ul>
+
 <a name="gettingstarted"></a>
 <h2>Getting Started</h2>
 
-<p> Here's 7 things
-you can do to get started in free and open source software:
+<p> Here's 7 things you can do to get started in free and open source
+software:
 
-<ol type="1"><li><strong>Choose an
-organization to work with.</strong>
-<br />Open source is a huge community, with hundreds of thousands of projects written in
-Python alone.  If you want any sort of mentoring or help, it's best to choose a specific
-piece of software as a starting point.
-See &quot;<a class="https"
-href="https://wiki.python.org/moin/SummerOfCode/FrequentlyAskedQuestions#How_do_I_choose_a_project_or_a_sub-org.3F">How
-do I choose a project or a sub-org?</a>&quot;  if you need help choosing.
+<ol type="1">
+   <li><strong>Choose an organization to work with.</strong>
+   <br />There's hundreds of thousands of projects that use Python, and you
+need to narrow
+down the list before you can get help or do much that's useful.  See <a
+href="faq.html#choosing">How do I choose a project or sub-org?</a> for ideas
+on how to do that.
+   <ul>
+		<li>Hint: Core Python development is not a great place for absolute
+beginners: you probably want a smaller project with more mentorship available
+as your first choice.</li>
 
-<ul>
-<li>You don't have to stick with the first project you choose!  It's very common for open
-source folk to contribute casually to many projects, have a smaller number they spend
-more time on, and move from project to project as their interests change.  Don't waste
-time on decision paralysis!
+		<li><em>Any</em> open source experience will help you prepare for GSoC,
+so don't worry too much about what project you try first and don't be afraid
+to change your mind!</li>
 
-<li>Experience with *any* open source group will help you prepare for GSoC or be a better
-general open source contributor.</li>
+		<li>For GSoC applications, you'll need to choose from <a
+href="http://python-gsoc.org/#ideas">the list of accepted sub-orgs</a> (Or
+google's list of big orgs!).  If your favourite group isn't on the list,
+contact them to see if they're interested in participating.  Applications not
+associated with a known sub-org are usually rejected because we don't have
+mentors available.
 
-<li>Asking mentors or community members to choose your project for you
-typically leaves a bad first impression, especially since mentors probably
-don't know you well enough to help guide you to a good choice and are very tired of being
-asked by hundreds of students every year.  At least try
-to narrow down your choices a bit on your own, or let them know enough about
-what you like and don't like so they can help.</li>
+   </ul>
 
-<li>GSoC specific: If you want to be accepted for a GSoC internship, you will need to
-choose from <a href="#ideas">our list of registered sub orgs</a> (If that's not ready when
-you look, you can check out <a href="http://python-gsoc.org/2017/#ideas">the list from
-2017 to see who might be participating again</a>, but check the final list before
-submitting an application).  Applications that don't relate to an
-accepted sub-org will be rejected because we don't have mentors available.  If your
-favourite group isn't on the list, please contact them to see if they would like to
-participate.
+   <li><strong>Set up your own development environment.</strong>
+	<br />Document what you do so you can remember it later, and so you can
+help others if they get stuck! And if you get stuck, don't be afraid to ask
+for help.
 
+   <li><strong>Start communicating with the developers.</strong>
+	<br />Join the mailing list, IRC channel, or any other communication
+channels the developers use. Listen, get to know the people involved, and ask
+questions.
+
+   <ul>
+		<li>In almost all cases, you should <strong>communicate in
+public</strong> rather than in private. GSoC is a busy time for many
+developers and many beginner questions get asked repeatedly. Help keep your
+devs less stressed out by reading what they've written already and making it
+easier for them to have a record of the things they've answered. You can use
+a pseudonym/nickname if you want. Also, search those archives to make sure
+you're not asking something that's just been asked by someone else!
+
+      <li>If you want to make the best first impressions, <a
+href="faq.html#dearsir">DO NOT start
+with "Dear Sir."</a> and <a href="faq.html#ask2ask">DO NOT ask to ask</a>.
+
+   </ul>
+
+   <li><strong>Find some beginner-friendly bugs and try to fix them.</strong>
+	<br />Many projects have these tagged as "easy" "bite-size" or
+"beginner-friendly" so try searching for those terms or looking at the tags
+to figure out which bugs might be good for you.
+
+   <ul>
+	 <li>Note that if you apply as a student with the PSF you will be asked to
+submit a code sample, generally code related to your project. A few fixed
+bugs with code accepted upstream will make your application look great!
+
+	<li>Remember, competition for easy bugs is very high during GSoC so it can
+be hard to find one that's tagged. If you don't see anything from your
+search, read through the bugs and choose a few that sound like something you
+can fix.  Remember to ask for help if you get stuck for too long, "I'm a new
+contributor and was trying to work on bug#123456. I have a question about how
+to..." -- if people can't help, sometimes they will be able to suggest
+another bug which would be more beginner-suitable.
+
+	<li>Other "easy" bug ideas: find typos and fix them.  Set up new tests --
+even if the project doesn't need the first one you write, practice writing
+test cases is useful for later.  Try using a tool like pylint to find issues
+(but remember not everyone cares about the same things!).
 </ul>
-</li>
 
-<li><strong>Start communicating with the developers.</strong><br />
-Join the mailing list, IRC channel, or any other communication channels the
-developers use.  Listen, get to know the people involved, and ask questions.
-Not sure where to find that contact info?  Each sub-org for Python has their
-information listed <a href="#ideas">in the ideas list</a> once they're signed up, but
-a quick websearch will usually turn up a project's home page and preferred methods of
-contact too.
+   <li><strong>Find bugs and report them.</strong>
+   <br />Hopefully you won't encounter too many, but it's always a good
+idea to get familiar with your project's bug reporting process.
 
-<ul>
-<li>If you want to make the best
-first impression, DO NOT start emails with &quot;Dear Sir.&quot;  Python has
-many mentors who prefer other forms of address (for example, many mentors are female!) and
-"Sir" is often seen as an impolite way to exclude many valued members of our community.
-You can skip the salutation entirely, try &quot;Dear developers&quot; if  you're sending a
-general email, or use whatever name they use on their email if you're addressing a
-specific person.  Culturally speaking, first names or chosen nicknames are fine for most
-open source projects. </li>
+   <li><strong>Help with documentation.</strong>
+	<br />As a beginner in your project, you're going to see things that are
+confusing that more experienced developers may not notice. Take advantage of
+your beginner mindset and make sure to document anything you think is
+missing!
 
-<li><strong>DO</strong> ask your question in public.  Being able
-to participate in the open is a signal to developers that you're ready to
-participate in open source/free software, so it can improve your chances of
-being accepted to GSoC.  It also means others can benefit from seeing your
-questions and the answers you get.</li>
-
-<li><strong>DON'T</strong> Ask to
-ask.  Just get right to the point and ask your question without asking if
-you're allowed to ask a question first.  You don't need to introduce yourself
-in most communities.  See <a class="https"
-href="https://wiki.python.org/moin/SummerOfCode/FrequentlyAskedQuestions#What_does_.22don.27t_ask_to_ask.22_mean.3F">What
-does &quot;don't ask to ask?&quot; mean?</a> for more explanation. </li></ul></li>
-
-<li><strong>Set up your own development environment.</strong>
-<br />
-This can be a lot of work the first time, so budget time for it, and don't
-forget that you're going to want to run the code you've written, so you'll
-need some sort of test environment.  This is a good time to practice asking
-good questions and helping improve setup instructions! </li>
-
-<li><strong>Find some bugs and try to fix
-them.</strong>
-<br />Many projects have bugs tagged as &quot;easy&quot;,
-&quot;bite-size&quot;, or &quot;beginner-friendly&quot; that will be easier
-for new contributors. <ul><li>Note that if you apply as a student with the
-PSF you will be asked to submit a code sample, generally code related to your
-project.  A few fixed bugs with code accepted upstream will make your
-application look great! </li>
-
-<li>Having trouble figuring out which
-bugs are beginner-friendly?  Try searching for terms like &quot;easy&quot; in
-the bug tracker.  Or just choose a bug that sounds easy to you and try to get
-started on it!  What's easy for you may not be easy for others, so take
-advantage of your own skills and experience where you can.  Remember to ask
-for help if you get stuck for too long, &quot;I'm a new contributor and was
-trying to work on bug#123456.  I have a question about how to...&quot;  -- if
-people can't help, sometimes they will be able to suggest another bug which
-would be more beginner-suitable. </li>
-
-<li>Remember, competition for easy bugs is very high during GSoC so
-it can be hard to find one that's flagged.  If you don't see anything, read
-through the bugs and choose a few that sound like something you can fix. What's easy for
-you may not be easy for everyone, so take advantage of that.</li>
-
-<li>Other &quot;easy&quot; bug ideas: look for typos
-and fix them.  Set up new tests -- even if your project decides they don't
-need the first one you write, the practice of writing test cases will be
-useful for other development (e.g. when you want to add a new feature and
-need to include tests for it).  Try using a tool like pylint to find style
-issues and correct those. (But pay attention to your project's style guide!
-Not everyone cares about the same things.) </li></ul></li>
-
-<li><strong>Find bugs and report them.</strong>
-<br />It's always a
-good idea to get familiar with your project's bug reporting process.  Writing
-excellent bug reports is a really useful skill, so try searching for &quot;<a
-class="https"
-href="https://www.google.com/search?q=writing+good+bug+reports&amp;ie=utf-8&amp;oe=utf-8">writing
-good bug reports</a>&quot; and learn to write really great ones.  You might
-even be able to help improve other people's bug reports by duplicating their
-results and asking questions to fill in information they didn't provide.
-</li>
-
-<li><strong>Help with documentation.</strong>
-<br /> As a beginner in your project,
-you're going to see things that are confusing that more experienced
-developers may not notice.  Take advantage of your beginner mindset and make
-sure to document anything you think is missing! </li>
-
-<li><strong>Help others.</strong>
-<br /> This is a great idea for many reasons: explaining things can
+   <li><strong>Help others.</strong>
+	<br />This is a great idea for a lot of reasons: explaining things can
 help you learn them better, demonstrating your skills as a good community
 member can make you more memorable when your mentors have to choose
-candidates, and being helpful makes your community a better place! </li>
+candidates, and being helpful makes your community a better place!
+
 </ol>
 
 <a name="contact"></a>
@@ -446,7 +418,12 @@ January and February 2018.</p></div>
 <p>This section will contain information about sub-orgs and their project
 ideas once they have gotten in touch with the PSF. If you're unsure whether
 your favourite Python-based project will be participating, ask them and
-encourage them to sign up!</p>
+encourage them to sign up! </p>
+
+<p>Not sure who might participate?  You can <a
+href="faq.html#previous"</a>check out the list of all previous years
+here</a>, or just <a href="2017/#ideas">check out the 2017 ideas list
+here</a>.
 
 <p>If you represent a python-based sub-org and want to be added to the list, <a
 href="#sub-orgs">read up on what it takes to participate</a>, contact
