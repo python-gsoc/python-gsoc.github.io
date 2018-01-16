@@ -10,13 +10,14 @@ rejected.__
 * Email, telephone, alternate contact methods:
 * Time Zone:
 * GSoC Blog (you will be asked to blog about your project)
-* code sample:  Link to a patch/code sample, preferably one you have
-* submitted to your sub-org. Must be publicly available. Applications without
-* a valid code sample will be rejected.
+
+# Code sample:
+* Link to a patch/code sample, preferably one you have submitted to your
+sub-org. Must be publicly available and your own work. Applications without
+a valid code sample will be rejected.
 
 # Project info
-* Proposal Title:  Include the name of your sub-org and explain in a few
-* words what you plan to do.
+* Proposal Title:  Include the name of your sub-org and explain in a few words what you plan to do.
 * Proposal Abstract:
 * Proposal Detailed Description/Timeline:
   * Please include timeline with milestones, preferably weekly ones. All pre-work such as setup and reading documentation should take place during community bonding.
