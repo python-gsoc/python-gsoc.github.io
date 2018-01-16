@@ -1,4 +1,5 @@
-Please get the latest version of this template from http://python-gsoc.org/
+This template is available with more examples/explanation at
+http://python-gsoc.org/studenttemplate.html
 
 # Sub-org name
 e.g. Dipy, MNE-Python. Please include this in the title of your application
