@@ -1,7 +1,9 @@
 Please get the latest version of this template from http://python-gsoc.org/
 
 # Sub-org name
-e.g. Dipy, MNE-Python. Projects without a valid sub-org will be rejected.
+e.g. Dipy, MNE-Python. Please include this in the title of your application
+in the system as well.  __Projects without a valid sub-org will be
+rejected.__
 
 # Student info
 * Name/Nicknames (e.g. on github, irc):
