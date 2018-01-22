@@ -86,6 +86,12 @@ table.ideas {
 td.logo {
 	max-width: 300px;
 	text-align: center;
+	width: 25%;
+}
+td.intro table {
+  width: 100%;
+  min-height: 200px;
+  border-collapse: collapse;
 }
 td {
 	border: 1pt solid #e5e5e5;
