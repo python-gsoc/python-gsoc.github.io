@@ -37,6 +37,7 @@ a.sitename, a:visited.sitename {
 	height: 50px;
 	text-decoration: none;
 	color: #2955a3;
+    font-family: fantasy;
 }
 .menu li {
 	display: inline;
@@ -109,4 +110,12 @@ td.good {
 
 td.problem {
 	background: #D84040;
+}
+#pyimg{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tit{
+    text-align: center;
 }
