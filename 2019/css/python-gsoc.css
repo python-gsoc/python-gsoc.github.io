@@ -1,0 +1,73 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: #489eba;
+}
+
+
+
+/* Alternate coloured ribbon */
+.ribbon {
+    background: #16536e;
+    color: #aaaaaa;
+
+    padding: 1em 1em 3em;
+}
+
+.ribbon a:link {
+    color: white;
+}
+
+.ribbon a:visited {
+    color: wheat;
+}
+
+.ribbon a:hover {
+    color: hotpink;
+}
+
+.ribbon a:active {
+    color: red;
+}
+
+/* Menu */
+.custom-restricted-width {
+    display: inline-block;
+}
+
+#menu .pure-menu-heading {
+    background-color:  #16536e;
+}
+#menu .pure-menu-selected {
+    background-color: #489eba;
+}
+
+/* We want to give the content area some more padding */
+.content {
+    padding: 1em 1em 3em;
+}
+
+/* This is the class used for the main content headers (<h2>) */
+.content-head {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+}
+
+/* This is a modifier class used when the content-head is inside a ribbon */
+.content-head-ribbon {
+    color: white;
+}
+
+/* This is the class used for the content sub-headers (<h3>) */
+.content-subhead {
+    color: #489eba;
+}
+.content-subhead i {
+    margin-right: 7px;
+}
