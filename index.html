@@ -1,725 +1,471 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
+
 <head>
-<title>Python in Google Summer of Code</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Python's Google Summer of Code Page">
+    <title>Python GSoC &ndash; Splash</title>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="css/side-menu.css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="css/python-gsoc.css">
+
 </head>
 
 <body>
-<!-- Top navigation bar -->
-<nav class="fixed-nav-bar">
-  <div id="menu" class="menu">
-    <ul class="menu">
-      <li style="float:left"><a href="#"><img src="python-logo-45px.png"
-alt="Python logo" height="45" /></a>
-      <li><a href="https://blogs.python-gsoc.org">Student Blogs</a></li>
-      <li><a href="#schedule">Deadlines</a></li>
-      <li><a href="#ideas">Project Ideas</a></li>
-      <li><a href="#mentors">Mentors</a></li>
-      <li><a href="#students">Students</a></li>
-      <li><a href="#gettingstarted">Getting Started</a></li>
-      <li><a href="#about">About</a></li>
-    </ul>
-  </div>
-</nav>
 
-<td class="content">
-<a name="about"></a>
-<h1>Google Summer of Code 2018 @ the Python Software Foundation</h1>
-<img src="python-powered-h-140x182.png" alt="Python powered" height="182" width="140" />
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="index.html">Python GSoC</a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="index.html#gettingstarted" class="pure-menu-link">Getting Started</a></li>
+                <li class="pure-menu-item"><a href="students.html" class="pure-menu-link">Students</a></li>
+                <li class="pure-menu-item"><a href="mentors.html" class="pure-menu-link">Mentors</a></li>
+                <li class="pure-menu-item"><a href="index.html#ideas" class="pure-menu-link">Project Ideas</a></li>
+                <li class="pure-menu-item"><a href="deadlines.html" class="pure-menu-link">Deadlines</a></li>
+                <li class="pure-menu-item"><a href="https://blogs.python-gsoc.org" class="pure-menu-link">Blogs</a></li>
+                <li class="pure-menu-item"><a href="index.html#contact" class="pure-menu-link">Contact</a></li>
+            </ul>
+        </div>
+    </div> <!-- menu -->
+
+    <div class="main">
+        <div class="header">
+            <h1>Python Summer of Code</h1>
+            <p>
+                Students: get paid to work on open source projects!
+            </p>
+            <p>
+                Projects: find new contributors and mentor the next generation!
+            </p>
+        </div>
+    </div> <!-- splash container -->
+
+    <div class="ribbon l-box-lrg pure-g">
+        <div class="content">
+            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                <h2 class="content-head content-head-ribbon is-center">What is it?</h2>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+                <div class="padded-cell">
+                    <h3 class="content-subhead">
+                        <i class="fab fa-python"></i>
+                        Python
+                    </h3>
+                    <p>
+                        Python is a popular high-level programming language. It is a general-purpose language used by
+                        scientists, developers, and many others who want to work more quickly and integrate systems
+                        more effectively.
+                    </p>
+                </div>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+                <h3 class="content-subhead">
+                    <i class="fas fa-cogs"></i>
+                    Google Summer of Code
+                </h3>
+                <p>
+                    Google Summer of Code (GSoC) is a global program that offers post-secondary students an
+                    opportunity to be paid for contributing to an open source project over a three month period.
+                </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                <p>
+                    The Python Software Foundation (PSF) is an organization devoted to advancing open source
+                    technology related to the Python programming language.
+                    Since 2005, the Python Software Foundation has participated in Google Summer of Code, serving
+                    as an "umbrella organization" to a variety of Python-related projects, as well as sponsoring
+                    projects related to the development of the Python language. Python provides mentors, Google
+                    provides the program (and the money!), and students write code!
+                </p>
+            </div>
+        </div>
+    </div> <!-- ribbon What Is it? -->
+    <a name="gettingstarted"></a>
+    <div class="content">
+        <h2 class="content-head is-center">How do I get started?</h2>
+        <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                <h3 class="content-subhead">
+                    <i class="fa fa-rocket"></i>
+                    Choose an organization.
+                </h3>
+                <p>
+                    There's hundreds of thousands of projects that use Python, and you
+                    need to narrow
+                    down the list before you can get help or do much that's useful.
+                    See <a href="students.html#choosing">How
+                        do I choose a project or sub-org?</a> for ideas
+                    on how to do that.
+
+
+                    <p><em>Any</em> open source experience will help you prepare for GSoC,
+                        so don't worry too much about what project you try first and don't be afraid
+                        to change your mind! When we know which sub-orgs will be participating,
+                        they'll be listed <a href="#ideas">with the project ideas</a>.
+                    </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                <div class="padded-cell">
+                    <h3 class="content-subhead">
+                        <i class="fa fa-laptop"></i>
+                        Set up your own development environment.
+                    </h3>
+                    <p>
+                        Document what you do so you can remember it later, and so you can
+                        help others if they get stuck! And if you get stuck, don't be afraid to ask
+                        for help.
+                    </p>
+                </div>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                <div class="padded-cell">
+                    <h3 class="content-subhead">
+                        <i class="fa fa-comments"></i>
+                        Start communicating with the developers.
+                    </h3>
+                    <p>
+                        Join the mailing list, IRC channel, or any other communication
+                        channels the developers use. Listen, get to know the people involved, and ask
+                        questions.
+
+                        <ul>
+                            <li>Read first to see if your question has already been answered.
+                                We get a lot of repeat questions!
+                            </li>
+                            <li>Communicate in public (not in private). Most open source work is done in the open, so
+                                demonstrate that you can do that!</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                <h3 class="content-subhead">
+                    <i class="fa fa-bug"></i>
+                    Try to fix a bug.
+                </h3>
+                <p>
+                    Many projects have these tagged as "easy" "bite-size" or
+                    "beginner-friendly" -- do a search to see what comes up. Competition for the easiest
+                    ones can be fierce, so don't be afraid to try something harder if you think
+                    you might know what to do.
+                </p>
+                <p>
+                    Can't find a bug? Other ideas: find typos and fix them. Improve test coverage by
+                    writing new tests. Improve documentation. Use a tool like Pylint or Bandit to see
+                    if you can find new issues.
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                <div class="padded-cell">
+                    <h3 class="content-subhead">
+                        <i class="fa fa-flag"></i>
+                        Find bugs and report them.
+                    </h3>
+                    <p>
+                        Hopefully you won't encounter too many, but it's always a good idea to get familiar with your
+                        project's bug reporting process.
+                    </p>
+                </div>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                <div class="padded-cell">
+                    <h3 class="content-subhead">
+                        <i class="fa fa-file"></i>
+                        Help with documentation.
+                    </h3>
+                    <p>
+                        As a beginner in your project, you're going to see things that are confusing that more
+                        experienced developers may not notice. Take advantage of your beginner mindset and make sure to
+                        document anything you think is missing!
+                    </p>
+                </div>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                <h3 class="content-subhead">
+                    <i class="fa fa-heart"></i>
+                    Help others.
+                </h3>
+                <p>
+                    Most projects are looking for not just coders, but good community members who people like to
+                    work with. Show your community skills by helping others and make a great impression come
+                    selection time!
+                </p>
+            </div>
+        </div>
+    </div> <!-- getting started -->
+    <a name="apply"></a>
+    <div class="ribbon l-box-lrg pure-g">
+        <div class="content">
+            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                <h2 class="content-head content-head-ribbon">How to apply</h2>
+
+                <p>Short application checklist:</p>
+                <ol>
+                    <li><strong>Read the links and instructions</strong> given on this site -- All of it! we've tried
+                        to give you all
+                        the information you need to be an awesome student applicant.
+
+                    <li><strong>Choose a sub-org</strong> (<a href="#ideas">check the list here</a>). Applications not
+                        associated with a sub-org typically get rejected.
+
+                    <li><strong>Talk with your prospective mentors</strong> about what they expect of student
+                        applicants and get help from them to refine your project ideas. Listening to
+                        your mentors' recommendations is very important at this stage!</li>
+
+                    <li><strong>Prepare a patch for that sub-org</strong>. Usually we expect students to fix a bug and
+                        have made a pull
+                        request (or equivalent). Your code doesn't have to be
+                        accepted and merged, but it does have to be visible to the public and it does have to be your
+                        own work
+                        (mentor help is ok, code you didn't write is not).</li>
+
+                    <li><strong>Write your application (with help from your mentors!)</strong> We'll have a template up
+                        when applications
+                        open. All applications <em>must</em> go through Google's application system; we can't accept
+                        any application
+                        unless it is submitted there.
+
+                        <ul>
+                            <li>Use a descriptive title and include your sub-org name in Google's system. Good example:
+                                "Mailman:
+                                Improve
+                                archive search" Bad example: "My gsoc project"
+                            <li>Make it easy for your mentors to give you feedback. If you're using Google docs,
+                                enable comments and submit a "draft" (we can't see the "final" versions until
+                                applications close).
+                                If you're using a format that doesn't accept comments, make sure your email is on the
+                                document and don't forget to check for
+                                feedback!
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><strong>Submit your application to Google before the deadline.</strong> We actually
+                        recommend you submit a few days early in case you have internet problems or
+                        the system is down. Google does not extend this deadline, so it's best to be
+                        prepared early! You can edit your application up until the system
+                        closes.</li>
+                </ol>
+                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                    <h3 class="content-subhead">
+                        <i class="fas fa-smile-wink"></i>
+                        Tip
+                    </h3>
+                    <p><strong>Communication</strong> is probably the most
+                        important part of the application process. Talk to the mentors and other
+                        developers, <em>listen</em> when they give you advice,
+                        and demonstrate that you've understood by incorporating their feedback into
+                        what you're proposing. We reject a lot of students who haven't listened to mentor
+                        feedback. If your mentors tell you that a project idea won't work for them, you're
+                        probably not going to get accepted unless you change it.</p>
+                </div>
+                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                    <h3 class="content-subhead">
+                        <i class="fas fa-file-invoice"></i>
+                        What goes in an application?
+                    </h3>
+                    An ideal application will contain 5 things:
+                    <ol>
+                        <li>A <strong>descriptive title</strong> including the name of the <strong>sub-org</strong> you
+                            want to work with
+                            (if this is missing, your application may be rejected!)</li>
+                        <li><strong>Information about you</strong>, including contact information.</li>
+                        <li>Link to a <strong>code contribution</strong> you have made to your organization.
+                            (Usually this is a link to a pull request.)</li>
+                        <li>Information about your <strong>proposed project</strong>. This should be fairly detailed
+                            and include
+                            a timeline.</li>
+                        <li><strong>Information about other commitments</strong> that might affect your ability to work
+                            during the GSoC period.
+                            (exams, classes, holidays, other jobs, weddings, etc.) We can work around a lot of things,
+                            but
+                            it helps
+                            to know in advance.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div> <!-- How to apply -->
+    <a name="ideas"></a>
+    <div class="content">
+        <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+            <h2 class="content-head content-head">Ideas</h2>
+            <p>This section will list all the sub-orgs who have signed up to participate with the
+                Python Software Foundation for 2019. Appplications for sub-orgs are due by Feb 4,
+                so our initial list should be available by Feb 5th.</p>
+            <p>In the meantime, you may wish to take a look at <a href="/2018/">last year's list</a>
+                to see who might be involved again.</p>
+        </div>
+    </div> <!-- Ideas -->
+    <a name="contact"></a>
+    <div class="ribbon l-box-lrg pure-g">
+        <div class="content">
+            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                <h2 class="content-head content-head-ribbon">Getting in Touch</h2>
+
+                <p>
+                    Please note that Python has a <a href="https://www.python.org/psf/codeofconduct/">Community
+                        Code of Conduct</a> and mentors and
+                    students working with the PSF are asked to abide by it as members of the
+                    Python community.
+                </p>
+            </div>
+            <div class="pure-g">
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <div class="padded-cell">
+                        <h3 class="content-subhead">
+                            <i class="fa fa-envelope"></i>
+                            Mailing Lists.
+                        </h3>
+                        <p>Sign up to the <a href="https://mail.python.org/mailman/listinfo/gsoc-general">gsoc-general(at)python.org</a>
+                            mailing list to get updates, reminders, and to discuss questions. Please join the list
+                            <em>before</em> you send a message!</p>
+                        <p>The most common questions are answered here:
+                            <ul>
+                                <li><a href="#gettingstarted">How do I get started?</a></li>
+                                <li><a href="students.html#choosing">What project should I choose?</a></li>
+
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-2-3">
+                    <h3 class="content-subhead">
+                        <i class="fa fa-comments"></i>
+                        IRC / Live chat
+                    </h3>
+                    <p>
+                        Our IRC channel is <a href="https://riot.im/app/#/room/#python-gsoc:matrix.python-gsoc.org">#python-gsoc
+                            on
+                            irc.freenode.net</a>. (Don't know IRC? <a href="http://irchelp.org">Learn more at
+                            irchelp.org</a>).
+                    </p>
+
+                    <ul>
+                        <li>
+                            Please wait for an answer! Many mentors are busy and can't chat right away.
+                        </li>
+                        <li>
+                            You can access this channel many ways! They all connect together using magic provided by
+                            Warthog9.
+                            <ul>
+                                <li>Matrix room at <a href="https://matrix.to/#/#python-gsoc:matrix.python-gsoc.org">
+                                        #python-gsoc:matrix.python-gsoc.org</a> (Includes Android client!)</li>
+                                <li>Get a <a href="https://join.slack.com/t/python-gsoc/shared_invite/enQtNDg0NDgwNjMyNTE2LTNlOGM1MWY2MzRlMjNhMGM2OWJjYzE3ODRmMmM0MjFjNGJmNGRiYzI4ZDc1ODgxOTYzMDQyNzBiNGFlYWVjZTY">Slack
+                                        invite</a> (Our Slack Workspace is: python-gsoc.slack.com)</li>
+                                <li>Old freenode webchat: <a href="http://webchat.freenode.net/?channels=python-gsoc">#python-gsoc
+                                        on
+                                        irc.freenode.net</a></li>
+                            </ul>
+                    </ul>
+                </div>
+                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                    <h3 class="content-subhead">
+                        <i class="fa fa-users"></i>
+                        Specific sub-orgs
+                    </h3>
+                    <p>To talk with people from a specific sub-org, <a href="#ideas">check their ideas
+                            page listing</a> for their mailing lists, IRC, and other contact information.</p>
+                </div>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                <h3 class="content-subhead">
+                    <i class="fa fa-heart"></i>
+                    Tips!
+                </h3>
+                <ol>
+                    <li><strong>Read first.</strong> We've tried to answer the common questions on this site, and
+                        we get asked things like "<a href="#gettingstarted">How do I get started?</a>" and
+                        "<a href="students.html#easybugs">Where do I find easy bugs?</a>" a lot. Check the
+                        <a href="students.html#faq">Frequently Asked Questions (FAQ) on the student page</a> for more!</li>
+                    <li><strong>Be Patient!</strong> Our mentors typically have day jobs and can't always answer
+                        right-away. If you can't hang out on IRC for an answer, send an email instead.</li>
+                    <li><strong>Ask questions directly on IRC.</strong> You don't need to introduce
+                        yourself or say hi first, just ask away!</li>
+                    <li><strong>Communicate in public.</strong> That lets many mentors read your question so you
+                        can usually get an answer faster.</li>
+                </ol>
+                <p><strong>For mentors</strong>: All the gsoc admins can be reached at
+                    gsoc-admins(at)python(dot)org if you have questions about participating.
+                    (Students should email gsoc-general(at)python.org with all of their
+                    questions, unless they are of a sensitive personal nature.)
+                </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                <h3 class="content-subhead">
+                    <i class="fa fa-crown"></i>
+                    Org admins
+                </h3>
+                <p>The 2019 Python Software Foundation (PSF) org admin team:</p>
+                <ul>
+                    <li>Terri Oda (terri on IRC) - focus areas: figurehead, making final decisions, website/documentation</li>
+                    <li>James Lopeman (meflin on IRC) - focus areas: IRC, ideas pages reviews, saying no</li>
+                    <li>John Hawley (warthog9 on IRC) - focus areas: infrastructure, advice, emergency mentoring/mentor
+                        supervision.</li>
+                    <li>Matthew Lagoe (Botanic on IRC) - focus areas: student blogs, irc bot, marking sure things happen on time</li>
+                    <li>Kushal Das (kushal on IRC) - focus areas: advice, time zone coverage</li>
+                </ul>
+                <p>The org admins can be reached at gsoc-admins(at)python(dot)org (for mentors)
+                    Students should almost always visit <a href="#gettingstarted">Getting Started</a> first, and email
+                    gsoc-general(at)python.org only if you get stuck.</p>
+
+                <p>We also have some "org admins emeritus" who may be able
+                    to help you:</p>
+
+                <ul>
+                    <li>Florian Fuchs (florianf on IRC)</li>
+                    <li>Stephen Turnbull (yaseppochi on IRC)</li>
+                </ul>
+            </div>
+        </div>
+    </div> <!-- Contact -->
+
+    <div class="content">
+        <h2 class="content-head is-center">Other Stuff</h2>
+
+        <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                <li>Found a typo? Want to improve this site? <a href="https://github.com/python-gsoc/python-gsoc.github.io">The
+                        source code
+                        is on GitHub and we welcome pull requests!</a></li>
+                <li>Want to use some of the text of this site? It is now <a href="https://github.com/python-gsoc/python-gsoc.github.io/blob/master/LICENSE.md">licensed
+                        under CC-BY-4.0</a>.</li>
+                <li>This site was developed using <a href="https://purecss.io">purecss.io</a> which is licensed under
+                    the <a href="https://github.com/pure-css/pure-site/blob/master/LICENSE.md">BSD license</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div> <!-- Other -->
+    <script src="js/ui.js"></script>
 
-<p><a href="http://python.org">Python</a> is a popular high-level programming
-language. It is a general-purpose language used by scientists, developers,
-and many others who want to work more quickly and integrate systems more
-effectively.
-
-<p><a href="http://code.google.com/soc/">Google Summer of Code</a> (GSoC) is
-a global program that offers post-secondary students an opportunity to be
-paid for contributing to an open source project over a three month period.
-Since 2005, the Python Software Foundation has served as an "umbrella
-organization" to a variety of Python-related projects, as well as sponsoring
-projects related to the development of the Python language.
-
-<div class="warning"><strong>Getting started</strong>: Not sure what to do first?  Check out the section on <a href="#gettingstarted">getting
-started in open source</a>!</div>
-
-<p>The 2018 Python Software Foundation (PSF) GSoC coordinator is Terri Oda. (terri on Freenode IRC, terrioda
-at gmail.com, but please email gsoc-admins(at)python(dot)org if you are a
-mentor who wishes to
-contact an admin. Students should almost always visit <a
-href="#gettingstarted">Getting Started</a> first, and
-email gsoc-general(at)python.org only if you get stuck.)
-
-<p>The other org admins include:</p>
-<ul>
-	<li>James Lopeman (meflin on IRC)</li>
-	<li>John Hawley (warthog9 on IRC)</li>
-   <li>Matthew Lagoe (Botanic on IRC)</li>
-</ul>
-
-<p>We also have a great group of advisors and "org admins emeritus" who may be able
-to help you:
-
-<ul>
-	<li>Florian Fuchs (florianf on IRC)</li>
-	<li>Kushal Das (kushal on IRC)</li>
-	<li>Stephen Turnbull (yaseppochi on IRC)</li>
-</ul>
-
-<h3>Table of Contents</h3>
-<ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#gettingstarted">Getting Started</a></li>
-      <li><a href="#students">Students</a></li>
-      <li><a href="#mentors">Mentors</a></li>
-      <li><a href="#ideas">Project Ideas</a></li>
-      <li><a href="#schedule">Deadlines</a></li>
-</ul>
-
-<a name="contact"></a>
-<h2>Getting in Touch</h2>
-
-<ul>
-<li>Please note that Python has a <a
-href="https://www.python.org/psf/codeofconduct/">Community Code of Conduct</a> and mentors and
-students working with the PSF are asked to abide by it as members of the
-Python community.</li>
-<li>Sign up to the <a
-href="https://mail.python.org/mailman/listinfo/gsoc-general">gsoc-general(at)python.org</a>
-mailing list to get updates, reminders, and to discuss questions.</li>
-
-<li><a
-href="http://webchat.freenode.net/?channels=python-gsoc">#python-gsoc on
-irc.freenode.net</a> is our IRC channel.  IRC is an older realtime chat protocol very
-popular among open source projects, and it's worth learning to use it and getting a
-dedicated client if
-you're going to be involved in open source long term.  Please remember to
-stick around a while for an answer, as many open source people use IRC for
-work and aren't always available to respond immediately.</li>
-<ul>
-<li>There are some great resources at http://irchelp.org/ if you need help finding a
-client or learning how to use IRC. </li>
-<li>We now have a Matrix / Riot.im server, and IRC bridge.  You can make use of this
-by connecting to the normal IRC channel at <strong>irc://irc.freenode.net/#python-gsoc</strong> or use
-our Matrix room at 
-<strong>
-	<a href="https://matrix.to/#/#python-gsoc:matrix.python-gsoc.org">
-		#python-gsoc:matrix.python-gsoc.org
-	</a>
-</strong>.  (And yes, there's an Android client if you follow that link!)
-</li>
-<li>We now <strong>ALSO</strong> have Slack bridged into Matrix, which is in turn bridged into IRC.</br>
-IRC &lt;-&gt; Matrix &lt;-&gt; Slack</br>
-Because you can never have too complicated a chain of bridged networks.  If you would like to join our
-Slack workspace please click the <strong><a href="https://join.slack.com/t/python-gsoc/shared_invite/enQtNDg0NDgwNjMyNTE2LTNlOGM1MWY2MzRlMjNhMGM2OWJjYzE3ODRmMmM0MjFjNGJmNGRiYzI4ZDc1ODgxOTYzMDQyNzBiNGFlYWVjZTY">Slack Workspace Invite Link</a></strong></br>
-<strong>Note:</strong> our Slack Workspace is: python-gsoc.slack.com
-</li>
-</ul>
-
-<li>Found a typo?  Want to improve this page? <a
-href="https://github.com/python-gsoc/python-gsoc.github.io">The source code
-is on GitHub and we welcome pull requests!</a></li>
-<li>Want to use some of the text of this page?  It is now <a
-href="https://github.com/python-gsoc/python-gsoc.github.io/blob/master/LICENSE.md">licensed under CC-BY-4.0</a>.
-<li>To talk with people from a specific sub-org, <a href="#ideas">check their ideas
-page listing</a>.
-</ul>
-
-<p>Please try to read all the information on this page before
-asking a question.  We have tried to answer a lot of common questions in
-advance!</p>
-
-<p><strong>Don't forget to be patient</strong>: Our mentors generally have day-jobs and
-are not always paying attention to IRC (especially during GSoC off-season: expect more
-active mentors after Google's announcement of organizations). Please ask questions
-directly on channel (you don't need to introduce
-yourself or say hi first) and please be patient while waiting for an answer.
-You could wind up waiting an hour or much longer for "realtime" answers if all the
-mentors are in meetings at work or otherwise occupied. If you can't stay that
-long, stay as long as you can and then send email to the mailing list instead
-so mentors have some way to reach you.  We try to answer emails within 48h.</p>
-
-<p><strong>For mentors</strong>: All the gsoc admins can be reached at
-gsoc-admins(at)python(dot)org if you have questions about participating.
-(Students should email gsoc-general(at)python.org with all of their
-questions, unless they are of a sensitive personal nature.)
-
-
-
-<a name="gettingstarted"></a>
-<h2>Getting Started</h2>
-
-<p> Here's 7 things you can do to get started in free and open source
-software:
-
-<ol type="1">
-   <li><strong>Choose an organization to work with.</strong>
-   <br />There's hundreds of thousands of projects that use Python, and you
-need to narrow
-down the list before you can get help or do much that's useful.  See <a
-href="faq.html#choosing">How do I choose a project or sub-org?</a> for ideas
-on how to do that.
-   <ul>
-		<li>Hint: If you're a beginner, look for a project with lots of mentors
-available and projects marked as suitable for beginners.  (Core Python development
-is not usually beginner suitable.)</li>
-
-		<li><em>Any</em> open source experience will help you prepare for GSoC,
-so don't worry too much about what project you try first and don't be afraid
-to change your mind!</li>
-
-		<li>For GSoC applications, you'll need to choose from <a
-href="http://python-gsoc.org/#ideas">the list of accepted sub-orgs</a> (Or
-google's list of big orgs!).  If your favourite group isn't on the list,
-contact them to see if they're interested in participating.  Applications not
-associated with a known sub-org are usually rejected because we don't have
-mentors available.
-
-   </ul>
-
-   <li><strong>Set up your own development environment.</strong>
-	<br />Document what you do so you can remember it later, and so you can
-help others if they get stuck! And if you get stuck, don't be afraid to ask
-for help.
-
-   <li><strong>Start communicating with the developers.</strong>
-	<br />Join the mailing list, IRC channel, or any other communication
-channels the developers use. Listen, get to know the people involved, and ask
-questions.
-
-   <ul>
-		<li>In almost all cases, you should <strong>communicate in
-public</strong> rather than in private. GSoC is a busy time for many
-developers and many beginner questions get asked repeatedly. Help keep your
-devs less stressed out by reading what they've written already and making it
-easier for them to have a record of the things they've answered. You can use
-a pseudonym/nickname if you want. Also, search those archives to make sure
-you're not asking something that's just been asked by someone else!
-
-      <li>If you want to make the best first impressions, <a
-href="faq.html#dearsir">DO NOT start
-with "Dear Sir."</a> and <a href="faq.html#ask2ask">DO NOT ask to ask</a>.
-
-   </ul>
-
-   <li><strong>Find some beginner-friendly bugs and try to fix them.</strong>
-	<br />Many projects have these tagged as "easy" "bite-size" or
-"beginner-friendly" so try searching for those terms or looking at the tags
-to figure out which bugs might be good for you.
-
-   <ul>
-	 <li>Note that if you apply as a student with the PSF you will be asked to
-submit a code sample, generally code related to your project. A few fixed
-bugs with code accepted upstream will make your application look great!
-
-	<li>Remember, competition for easy bugs is very high during GSoC so it can
-be hard to find one that's tagged. If you don't see anything from your
-search, read through the bugs and choose a few that sound like something you
-can fix.  Remember to ask for help if you get stuck for too long, "I'm a new
-contributor and was trying to work on bug#123456. I have a question about how
-to..." -- if people can't help, sometimes they will be able to suggest
-another bug which would be more beginner-suitable.
-
-	<li>Other "easy" bug ideas: find typos and fix them.  Set up new tests --
-even if the project doesn't need the first one you write, practice writing
-test cases is useful for later.  Try using a tool like pylint to find issues
-(but remember not everyone cares about the same things!).
-</ul>
-
-   <li><strong>Find bugs and report them.</strong>
-   <br />Hopefully you won't encounter too many, but it's always a good
-idea to get familiar with your project's bug reporting process.
-
-   <li><strong>Help with documentation.</strong>
-	<br />As a beginner in your project, you're going to see things that are
-confusing that more experienced developers may not notice. Take advantage of
-your beginner mindset and make sure to document anything you think is
-missing!
-
-   <li><strong>Help others.</strong>
-	<br />This is a great idea for a lot of reasons: explaining things can
-help you learn them better, demonstrating your skills as a good community
-member can make you more memorable when your mentors have to choose
-candidates, and being helpful makes your community a better place!
-
-</ol>
-
-<a name="students"></a>
-<h2>Students</h2>
-<p>GSoC is basically an open source apprenticeship: students will be paid by
-Google to work under the guidance of mentors from an open source community.
-It's a really great opportunity to build new skills, make connections in your
-community, get experience working with a larger and often distributed team,
-learn, and, of course, get paid.
-
-<p>Students are expected to work around 40 hours a week on their GSoC project.
-This is essentially a full-time job. Ideally, you should not attempt to do
-another internship, job, or full-time schooling while you're doing GSoC.
-
-<p>Remember that Google intends this to be a way for new contributors to join
-the world of open source.  The students most likely to be selected are those
-who are engaged with the community and hoping to continue their involvement
-for more than just a few months.
-
-<p>To apply, you need to <a href="#ideas">take a look at the mentoring
-organizations and the ideas that they are willing to sponsor</a>. Typically,
-you'll choose one of their ideas and work with a mentor to create a project
-proposal that's good for both you and your chosen open source community.
-Sometimes, projects are open to new ideas from students, but if you propose
-something new make especially sure that you work with a mentor to make sure
-it's a good fit for your community. Unsolicited, undiscussed ideas are less
-likely to get accepted.
-
-<p>Note that Python is an "umbrella organization" which means that our team is
-actually a group of python projects that work together to do Google Summer of
-Code. If you're going to apply with us, you'll need to choose from one of
-those teams, because that defines which mentors will be helping you with your
-applications.  <strong>Applications without any sub-org and mentor to
-evaluate them will be rejected.</strong>  You can work with more than one
-sub-org while you're figuring out what you want to do, but you can only
-accept one job offer.
-
-Here's some resources so you can read up more on how to be an awesome
-student:
-<ul>
-<li><a
-href="http://write.flossmanuals.net/gsocstudentguide/what-is-google-summer-of-code/">The
-GSoC student Guide</a> -- This is a guide written by mentors and former
-students.  It covers many questions that most students ask us.  Please read
-it before asking any questions on the mailing list or IRC if you can!  New
-students in particular might want to read the section <a
-href="http://write.flossmanuals.net/gsocstudentguide/am-i-good-enough/">Am I
-Good Enough?</a></li>
-
-<li><a
-href="https://developers.google.com/open-source/gsoc/resources/">Google's
-list of resources</a> -- Note especially the <a
-href="https://developers.google.com/open-source/gsoc/faq">Frequently Asked
-Questions</a> (FAQ) which does in fact answer 99% of the questions we get on
-the main GSoC IRC channel.</li>
-
-<li>Python's <a
-href="https://wiki.python.org/moin/SummerOfCode/Expectations">SummerOfCode/Expectations</a> also talks about what Python in particular
-is looking for in its students.</li>
-
-<li>Python's <a
-href="faq.html">Summer of Code Frequently Asked Questions</a> answers the questions that we
-most often get about Python's projects. You might want to see <a
-href="faq.html#choosing">How do I choose
-a project or a sub-org?</a> or <a
-href="faq.html#slots">How many slots does Python get?</a>
-</ul>
-
-<h3>How do I apply?</h3>
-
-Short application checklist:
-<ol>
-<li>Read the links and instructions given on this page -- All of it! we've tried to give you all the
-information you need to be an awesome student applicant.
-
-<li>Choose a sub-org (<a href="#ideas">check the list here</a>).  Applications not
-associated with a sub-org typically get rejected.
-
-<li>Talk to your prospective mentors about what they expect of student
-applicants and get help from them to refine your project ideas. Listening to
-your mentors' recommendations is very important at this stage!</li>
-
-<li>Prepare a patch for that sub-org</li>
-
-<li>Set up a blog where you will keep track of your GSoC progress</li>
-
-<li><a href="studenttemplate.html">Write your application</a> (with help from your mentors!)  Make sure to include the
-sub-org name in the title so your mentors can find it in the system, and make it easy for
-your mentors to comment on your doc (e.g. enable comments if you're using
-google docs).  <a
-href="https://github.com/python-gsoc/python-gsoc.github.io/blob/master/2018/application2018.md">A shorter
-markdown version of the application template is available here.</a></li>
-
-<li>	 Submit your application to Google before the deadline.  We actually
-recommend you submit a few days early in case you have internet problems or
-the system is down. Google does not extend this deadline, so it's best to be
-prepared early! You can edit your application up until the system
-closes.</li>
-</ol>
-
-<div class="warning"><strong>Communication</strong> is probably the most
-important part of the application process. Talk to the mentors and other
-developers, <em>listen</em> when they give you advice,
-and demonstrate that you've understood by incorporating their feedback into
-what you're proposing. We reject a lot of students who haven't listened to mentor
-feedback.</div>
-
-<a name="mentors"></a>
-<h2>Mentors</h2>
-<p>Interested in volunteering with the Python Software Foundation?
-
-<p><strong>The biggest job is mentoring students</strong>: Mentoring a
-student as a primary mentor can be a pretty big time commitment (we recommend
-around 0-10 hours a week for the 3 months of the program, with more time at the beginning
-and less once the student learns to work independently) but it's a very
-rewarding chance to give a student an open source apprenticeship.
-We mentor in teams, so if all you can handle is a few code reviews or taking
-over for a week while someone's on vacation, we'd still love your help.
-
-<p>The easiest way to become a mentor is to be part of one of the sub-orgs
-that plan to be involved, so get in touch with them directly if you want to
-help.  If you're part of a group that would like to participate as a sub-org,
-please read the section for sub-orgs below.
-
-<p><strong>But we often need other volunteers!</strong> We're also looking for
-friendly community members to help with other tasks! We'd love to have more
-people available on IRC/Mailing lists to answer student and mentor
-questions in various time zones. We are particularly looking for volunteers
-who can read and comment on student blogs, remind students if they haven't
-posted, and promote the work our students do to the larger Python community.
-Or maybe you have another skillset you'd like to contribute? (Proofreading?
-Recruiting diverse student applicants?) If you want to help, we'd
-be happy to find a way to make that happen!
-
-<p><strong>If you'd like to volunteer, get in touch with a sub-org admin or
-email the Python org admins at gsoc-admins(at)python(dot)org </strong></p>
-
-<a name="sub-orgs"></a>
-<h3>Sub-orgs</h3>
-<p>To participate under the Python umbrella, a sub-org must do the following:
-
-<ol>
-<li>Be a Python-based open source project that <a
-href="https://developers.google.com/open-source/gsoc/faq#what_are_the_eligibility_requirements_for_a_mentoring_organization">meets Google's requirements
-for GSoC</a>.
-
-<li>Have one sub-org admin and at least two mentors who are willing to commit
-to the full GSoC period. (More is awesome, though!)
-
-<li>Accept the <a href="https://www.python.org/psf/codeofconduct/">Python
-Community Code of Conduct</a> for the duration of the
-program.
-
-<li>Send an email indicating interest to gsoc-admins(at)python(dot)org before
-the Python deadline (exceptions can be made if you get an amazing
-student applicant later and want to sign up just for them).
-
-
-<li>Have a good ideas page. <a
-href="orgtemplate.html">Here's a template.</a> Getting a really great page
-sometimes takes a few rounds of revisions; Meflin will work with you to make
-sure your page is ready!  Once you're ready for review, you can <a
-href="https://github.com/python-gsoc/python-gsoc.github.io">send a pull request to get
-added to this page</a>
-
-<li>Be able to handle <a href="#schedule">meeting deadlines</a> and following both Google
-and Python's rules.  We try to send important reminders for big deadlines, but we only
-have limited volunteer time for nagging and cajoling.  Groups that cause repeated problems
-may be asked to take time off to limit volunteer burnout.
-	
-	<li>Disclose all potental conflicts of intrest to the Python admins <b>BEFORE</b> accepting a student. If you are unsure, ask. If a conflict is found after the fact the studnet and sub-org may be dropped from the program.
-
-</ol>
-
-
-<p>We can't promise to take everyone who meets those criteria, but we do try to
-take any group that we feel will give the students a great experience.
-Terri has final say in which projects participate under the Python
-umbrella, but please send any queries to all the admins at
-gsoc-admins(at)python(dot)org to make sure we're all on the same page.
-
-<p><strong>Python projects are welcome and encouraged to apply as separate
-mentoring organizations directly with Google.</strong> We're happy to help
-you in any way we can and we don't mind being your backup plan. We're also
-happy to help advertise python based organizations not under our umbrella: we
-want students to find projects that best suit them!
-
-<a name="ideas"></a>
-<h2>Project Ideas</h2>
-<p>This section lists all the sub-orgs who have signed up to participate with the
-Python Software Foundation for 2018.  If they're not on this list, they're
-probably not participating at this point, although we can sometimes make
-exceptions if the organization tells us they have a particularly promising
-student they want to work with.</p>
-
-<table class="ideas">
-<!-- Sub-org Info.  Please alphabetize when you add a new org -->
-<tr>
-	<td class="logo">
-		<img
-src="https://farm8.staticflickr.com/7587/17066220246_e184b0fa0b_m.jpg">
-  </td>
-	<td class="intro">
-    <table>
-      <tr><td><h4>DIPY</h4></td></tr>
-      <tr>
-        <td>
-          <p><a class="reference external" href="http://dipy.org">DIPY</a>
-            is a <strong>free</strong> and <strong>open source</strong> software project
-            for computational neuroanatomy,
-            focusing mainly on <strong>diffusion</strong> <em>magnetic resonance
-            imaging</em> (dMRI) analysis. It implements a
-            broad range of algorithms for denoising, registration, reconstruction,
-            tracking, clustering,
-            visualization, and statistical analysis of MRI data.</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="http://nipy.org/dipy/">Website</a> |
-          <a
-      href="https://mail.python.org/mailman/listinfo/neuroimaging">
-      Mailing List</a> |
-          <a href="https://gitter.im/nipy/dipy">Contact</a> |
-          <a
-      href="https://github.com/nipy/dipy/wiki/Google-Summer-of-Code-2018">Ideas
-      Page</a>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2" class="waiting">Status: Ideas page in
-    progress</td>
-      </tr>
-    </table>
-  </td>
-</tr>
-
-<tr>
- <!-- Logo -->
- <td  class="logo">
-   <img src="https://www.mercurial-scm.org/images/mercurial-logo.png" width="256">
- </td>
- <!-- Info -->
- <td class="intro">
-   <table>
-     <tr><td><h4>Mercurial</h4></td></tr>
-     <tr><td>Mercurial is a free, distributed source control management tool.
-	     It efficiently handles projects of any size and offers an easy and intuitive interface. 
-    </td></tr>
-    <tr>
-      <td>
-        <a href="https://www.mercurial-scm.org/">Website</a> |
-        <a href="https://www.mercurial-scm.org/mailman/listinfo/mercurial-devel/">
-          Mailing List
-        </a> |
-        <a href="http://webchat.freenode.net/?channels=mercurial">#mercurial</a> on Freenode|
-        <a href="https://www.mercurial-scm.org/wiki/SummerOfCode/Ideas2018">Ideas
-    Page</a>
-     </td>
-    </tr>
-    <tr><td colspan="2" class="waiting">Status: Ideas page in progress</td></tr>
-   </table>
- </td>
-</tr>	
-
-<tr>
- <!-- Logo -->
- <td  class="logo">
-   <img src="http://martinos.org/mne/stable/_static/mne_logo.png" width="256">
- </td>
- <!-- Info -->
- <td class="intro">
-   <table>
-     <tr><td><h4>MNE-Python</h4></td></tr>
-     <tr><td>MNE is a free and open source software designed for processing
-  electroencephalography (EEG) and magnetoencephalography (MEG) data. EEG and
-  MEG data analysis requires advanced numerics, signal processing, statistics
-  and dedicated visualization tools. MNE-Python is a pure Python package built
-  on top of numpy, scipy, matplotlib and scikit-learn.
-    </td></tr>
-    <tr>
-      <td>
-        <a href="http://martinos.org/mne/">Website</a> |
-        <a href="https://mail.nmr.mgh.harvard.edu/mailman/listinfo/mne_analysis">
-          Mailing List
-        </a> |
-        <a href="https://gitter.im/mne-tools/mne-python">Contact</a> |
-        <a href="https://github.com/mne-tools/mne-python/wiki/GSOC-Ideas">Ideas
-    Page</a>
-     </td>
-    </tr>
-    <tr><td colspan="2" class="waiting">Status: Ideas page in progress</td></tr>
-   </table>
- </td>
-</tr>
-
-<tr>
-  <!-- Logo -->
-  <td  class="logo">
-          <img
-src="https://avatars0.githubusercontent.com/u/3769919?v=3&s=200"></td>
-  <!-- Info -->
-  <td class="intro">
-    <table>
-      <tr><td><h4>PySAL</h4></td></tr>
-      <tr><td>Python Spatial Analysis Library</td></tr>
-      <tr>
-        <td>
-          <a href="http://www.pysal.org/">Website</a> |
-          <a href="https://gitter.im/pysal/pysal">Mentor Gitter</a> |
-          <a
-          href="https://github.com/pysal/pysal/wiki/PySAL-Google-Summer-of-Code-2018">Ideas
-          Page</a>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2" class="waiting">Status: Ideas page in progress</td>
-      </tr>
-    </table>
-  </td>
-</tr>
-
-<tr>
-   <!-- Logo -->
-   <td  class="logo">
-      <img src="http://scipy.org/_static/images/scipy_med.png"
-           width="150">
-   </td>
-   <!-- Info -->
-   <td class="intro">
-     <table>
-       <tr><td><h4>SciPy</h4></td></tr>
-       <tr><td>SciPy is a library that provides fundamental routines for
-    scientific
-       computing: statistics, optimization, integration, linear algebra, Fourier
-       transforms, signal processing, and more.</td></tr>
-       <tr>
-         <td>
-           <a href="http://scipy.org/">Website</a> |
-           <a href="http://scipy.org/scipylib/mailing-lists.html">Contact (scipy-dev list)</a>
-|
-           <a
-            href="https://github.com/scipy/scipy/wiki/GSoC-2018-project-ideas">Ideas
-            Page</a>
-         </td>
-       </tr>
-       <tr>
-         <td colspan="2" class="waiting">Status: Ideas page in progress</td>
-       </tr>
-     </table>
-   </td>
-</tr>
-
-<tr>
-   <!-- Logo -->
-   <td  class="logo">
-      <img src="http://scrapinghub.com/images/shub-standard-logo.png"
-width="300">
-   </td>
-   <!-- Info -->
-   <td class="intro">
-     <table>
-      <tr><td><h4>Scrapinghub</h4></td></tr>
-      <tr>
-        <td>Scrapinghub is a company focused on information retrieval and its
-later manipulation, deeply involved on developing and contributing in Open
-Source projects regarding web crawling and data processing technologies. This
-year we are applying with four of our most renowned projects, Scrapy, Portia,
-Splash and Frontera. (maybe 5 with dateparser) </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="http://scrapinghub.com/">Website</a> |
-          <a href="http://gsoc2018.scrapinghub.com/participate/">Contact</a> |
-          <a href="http://gsoc2018.scrapinghub.com/">Ideas Page</a>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2" class="waiting">Status: Ideas page in progress</td>
-      </tr>
-     </table>
-   </td>
-</tr>
-
-<tr>
-   <!-- Logo -->
-   <td  class="logo">
-      <img src="https://securedrop.org/sites/all/themes/securedrop/images/logo.png"
-width="150">
-   </td>
-   <!-- Info -->
-   <td class="intro">
-     <table>
-      <tr><td><h4>SecureDrop</h4></td></tr>
-      <tr>
-        <td>SecureDrop is an open-source whistleblower submission system that
-          media organizations can use to securely accept documents from and communicate with
-          anonymous sources. It was originally created by the late Aaron Swartz and is
-          currently managed by <a href="https://freedom.press">Freedom of the Press Foundation</a>.
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="https://securedrop.org/">Website</a> |
-          <a href="https://github.com/freedomofpress/securedrop/wiki/Google-Summer-of-Code-2018-Ideas#contacting-the-developers-and-rest-of-the-community">Contact</a> |
-          <a href="https://github.com/freedomofpress/securedrop/wiki/Google-Summer-of-Code-2018-Ideas">Ideas Page</a>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2" class="waiting">Status: Ideas page in progress</td>
-      </tr>
-     </table>
-   </td>
-</tr>
-
-<tr>
-   <!-- Logo -->
-   <td rowspan="4" class="logo">
-      <img
-src="http://www.statsmodels.org/devel/_static/statsmodels_hybi_favico.ico"
-           width="120"></td>
-   <!-- Info -->
-   <td><h4>Statsmodels</h4></td>
-   <tr><td>Statsmodels is a general purpose Python package for data analysis,
-statistics and econometrics </td></tr>
-   <tr><td><a href="http://www.statsmodels.org/devel/">Website</a> |
-           <a href="http://groups.google.com/group/pystatsmodels">Contact</a>
-|
-           <a
-href="https://github.com/statsmodels/statsmodels/wiki/Google-Summer-of-Code-2018">Ideas
-Page</a>
-   </td>
-      <tr>
-        <td colspan="2" class="waiting">Status: Ideas page in progress</td>
-      </tr>
-</tr>
-
-</table>
-
-<a name="schedule"></a>
-<h2>Schedule</h2>
-
-<div class="warning"><p><strong>Next Deadline</strong>
-Students can start signing up March 12th.
-</p></div>
-
-<strong>Dates</strong>
-<ul>
-<li>January 19 - Sub-org applications due.  <a href="http://python-gsoc.org/#sub-orgs">See
-the sub-org section for details</a>.  If you're an organization that tried to get in as
-a top-level organization and didn't get in and would like to participate with us instead,
-please get in touch by March 5.
-<li>February 12 - Google Announces list of accepted mentoring organizations
-<li>March 12 - Student sign-ups start
-<li>March 27 - Student sign-ups finish
-</ul>
-
-<p>Please note Google's <a
-href="https://developers.google.com/open-source/gsoc/timeline?hl=en">GSoC
-dates and deadlines</a>.
-
-<p>In general, Python will ask mentors to do things 48h before the Google
-deadline. This allows our admins time to make sure that evaluations, etc. are
-complete and ready for Google when their deadline comes.  Student deadlines
-remain the same, although getting things done earlier is never a bad
-idea!</p>
-
-<p>We have a Python-specific calendar here: <a
-href="https://calendar.google.com/calendar/ical/uhambjin8qdb9af4vt03c4djg4%40group.calendar.google.com/public/basic.ics">Python
-GSoC calendar in ical format</a></p>
-
-<br style="clear:both" />
-
-<iframe
-src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=uhambjin8qdb9af4vt03c4djg4%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FLos_Angeles"
-style="border-width:0" width="800" height="400" frameborder="0" scrolling="no"></iframe>
-
-</div>
 </body>
+
 </html>
