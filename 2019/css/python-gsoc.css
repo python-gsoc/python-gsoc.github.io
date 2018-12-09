@@ -48,7 +48,7 @@ label {
 
 /* We want to give the content area some more padding */
 .content {
-    padding: 1em 1em 3em;
+    padding: 1em 1em 2em;
 }
 
 /* This is the class used for the main content headers (<h2>) */
@@ -70,4 +70,12 @@ label {
 }
 .content-subhead i {
     margin-right: 7px;
+}
+
+.padded-cell {
+    margin-right: 2em;
+}
+
+.ribbon strong {
+    color: #edecf1;
 }
