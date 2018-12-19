@@ -8,7 +8,12 @@ label {
     color: #489eba;
 }
 
-
+.warning {
+    background:  wheat;
+    color: #16536e;
+    padding-left: 2em;
+    padding-right: 2em;
+}
 
 /* Alternate coloured ribbon */
 .ribbon {
