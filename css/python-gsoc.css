@@ -51,10 +51,6 @@ label {
     background-color: #489eba;
 }
 
-/* We want to give the content area some more padding */
-.content {
-}
-
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
     font-weight: 400;
@@ -86,4 +82,15 @@ label {
 
 .logo img {
     max-height: 150px;
+}
+
+/* Org status bars */
+div.ok {
+	border-bottom: 2px solid #8aab00;
+}
+div.waiting {
+	border-bottom: 2px solid #fecb01;
+}
+div.problem {
+	border-bottom: 2px solid #b44601;
 }
