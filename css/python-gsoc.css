@@ -83,3 +83,7 @@ label {
 .ribbon strong {
     color: #edecf1;
 }
+
+.logo img {
+    max-height: 150px;
+}
