@@ -26,25 +26,5 @@
   <loc>http://python-gsoc.org/psf_ideas.html</loc>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>http://python-gsoc.org/2017/</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://python-gsoc.org/2018/</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://python-gsoc.org/2018/faq.html</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://python-gsoc.org/2018/studenttemplate.html</loc>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://python-gsoc.org/2018/orgtemplate.html</loc>
-  <priority>0.51</priority>
-</url>
 
 </urlset>
