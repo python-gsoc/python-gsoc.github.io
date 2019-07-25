@@ -28,6 +28,36 @@
     <!--<![endif]-->
     <link rel="stylesheet" href="css/python-gsoc.css">
 
+    <style>
+        @media (max-width: 550px) {
+            .big-container {
+                display: none;
+            }
+        }
+        @media (min-width: 550px) {
+            .small-container {
+                display: none;
+            }
+        }
+        /* Responsive iFrame */
+        .responsive-iframe-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+        .responsive-iframe-container iframe,   
+        .vresponsive-iframe-container object,  
+        .vresponsive-iframe-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -102,7 +132,13 @@
                     <li>August 19 - 6th (and final!) blog post (Final work submissions happen this week) </li>
                 </ul>
 
-				<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=uhambjin8qdb9af4vt03c4djg4%40group.calendar.google.com&amp;color=%23853104&amp;ctz=UTC" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe> <a href="https://calendar.google.com/calendar/ical/uhambjin8qdb9af4vt03c4djg4%40group.calendar.google.com/public/basic.ics">iCal Link</a>
+                <div class="responsive-iframe-container big-container">
+                    <iframe id="cal1" src="null" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <div class="responsive-iframe-container small-container">
+                    <iframe id="cal2" src="null" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <a href="https://calendar.google.com/calendar/ical/uhambjin8qdb9af4vt03c4djg4%40group.calendar.google.com/public/basic.ics">iCal Link</a>
                 <p>Please note <a href="https://developers.google.com/open-source/gsoc/timeline?hl=en">Google's GSoC
                         dates
                         and deadlines</a>.</p>
@@ -111,6 +147,22 @@
         </div> <!-- content -->
     </div>
     <script src="js/ui.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/moment-timezone-with-data-10-year-range.min.js"></script>
+    <script>
+        String.prototype.replaceAll = function(search, replacement) {
+            var target = this;
+            return target.split(search).join(replacement);
+        };
+        var offset = new Date().getTimezoneOffset();
+        var timezone = moment.tz.guess(offset).replaceAll('/', '%2F')
+        cal1Url = `https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23FFFFFF&src=uhambjin8qdb9af4vt03c4djg4%40group.calendar.google.com&color=%23853104&ctz=${timezone}`
+        document.getElementById('cal1').src = cal1Url;
+        cal2Url = `https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23FFFFFF&src=uhambjin8qdb9af4vt03c4djg4%40group.calendar.google.com&color=%23853104&ctz=${timezone}&mode=AGENDA`
+        document.getElementById('cal2').src = cal2Url;
+
+
+    </script>
 </body>
 
 </html>
