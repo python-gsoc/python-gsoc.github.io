@@ -7,23 +7,23 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://python-gsoc.org/</loc>
+  <loc>https://python-gsoc.org/</loc>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://python-gsoc.org/students.html</loc>
+  <loc>https://python-gsoc.org/students.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://python-gsoc.org/mentors.html</loc>
+  <loc>https://python-gsoc.org/mentors.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://python-gsoc.org/deadlines.html</loc>
+  <loc>https://python-gsoc.org/deadlines.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://python-gsoc.org/psf_ideas.html</loc>
+  <loc>https://python-gsoc.org/psf_ideas.html</loc>
   <priority>0.80</priority>
 </url>
 
