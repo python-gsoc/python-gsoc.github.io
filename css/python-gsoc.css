@@ -68,6 +68,11 @@ label {
 .content-subhead {
     color: #489eba;
 }
+
+.content-subhead.dark-background {
+    color: #EBEBEB !important;
+}
+
 .content-subhead i {
     margin-right: 7px;
 }
