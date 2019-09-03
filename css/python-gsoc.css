@@ -39,6 +39,13 @@ label {
     color: red;
 }
 
+.warning a:link {
+    color: blue;
+}
+
+.warning a:visited {
+    color: purple;
+}
 /* Menu */
 .custom-restricted-width {
     display: inline-block;
