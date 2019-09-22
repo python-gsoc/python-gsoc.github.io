@@ -1,7 +1,5 @@
 User-agent: *
 
-Disallow: /2017/
-Disallow: /2018/
 Disallow: /2019/
 
 Sitemap: https://python-gsoc.org/sitemap.xml
