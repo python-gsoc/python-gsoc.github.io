@@ -18,13 +18,13 @@ label {
 /* Alternate coloured ribbon */
 .ribbon {
     background: #16536e;
-    color: #aaaaaa;
+    color: #ebebeb;
 
     padding: 1em 1em 3em;
 }
 
 .ribbon a:link {
-    color: white;
+    color: #73ffff;
 }
 
 .ribbon a:visited {
@@ -39,6 +39,13 @@ label {
     color: red;
 }
 
+.warning a:link {
+    color: blue;
+}
+
+.warning a:visited {
+    color: purple;
+}
 /* Menu */
 .custom-restricted-width {
     display: inline-block;
@@ -61,13 +68,14 @@ label {
 
 /* This is a modifier class used when the content-head is inside a ribbon */
 .content-head-ribbon {
-    color: white;
+    color: white !important;
 }
 
 /* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
-    color: #489eba;
+    color: #295E70;
 }
+
 .content-subhead i {
     margin-right: 7px;
 }
