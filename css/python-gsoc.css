@@ -102,3 +102,7 @@ div.waiting {
 div.problem {
 	border-bottom: 2px solid #b44601;
 }
+
+.responsive-img {
+  width: 100%;
+}
