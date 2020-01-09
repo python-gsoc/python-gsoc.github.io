@@ -3,7 +3,7 @@
     var layout   = document.getElementById('layout'),
         menu     = document.getElementById('menu'),
         menuLink = document.getElementById('menuLink'),
-        content  = document.getElementById('main');
+        content  = document.getElementsByClassName('main');
 
     function toggleClass(element, className) {
         var classes = element.className.split(/\s+/),
@@ -43,4 +43,4 @@
         }
     };
 
-}(this, this.document));
+})(this, this.document);
