@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Python's Google Summer of Code Page">
+    <meta name="google-site-verification" content="EVShtJLdVKN58OupOAYPkH6QRA3i-J8q4ZEklgFiZhE" />
+    <title>Python GSoC &ndash; Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
+        integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <!--[if lte IE 8]>
+            <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+            <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/side-menu-old-ie.css">
+            <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="css/side-menu.css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="css/python-gsoc.css">
+
+    <style>
+        @media (max-width: 550px) {
+            .big-container {
+                display: none;
+            }
+        }
+
+        @media (min-width: 550px) {
+            .small-container {
+                display: none;
+            }
+        }
+
+        /* Responsive iFrame */
+        .responsive-iframe-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .responsive-iframe-container iframe,
+        .vresponsive-iframe-container object,
+        .vresponsive-iframe-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="layout">
+        <div id="menu">
+            <div class="pure-menu">
+                <a class="pure-menu-heading" href="http://python-gsoc.org">Python GSoC</a>
+
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item"><a href="index.html#gettingstarted" class="pure-menu-link">Getting
+                            Started</a>
+                    </li>
+                    <li class="pure-menu-item"><a href="index.html#ideas" class="pure-menu-link">Project Ideas</a></li>
+                    <li class="pure-menu-item"><a href="deadlines.html" class="pure-menu-link">Deadlines</a></li>
+                    <li class="pure-menu-item"><a href="students.html" class="pure-menu-link">Students</a></li>
+                    <li class="pure-menu-item"><a href="mentors.html" class="pure-menu-link">Mentors</a></li>
+                    <li class="pure-menu-item"><a href="mentors.html#sub-orgs" class="pure-menu-link">Sub-orgs</a></li>
+                    <li class="pure-menu-item"><a href="students.html#faq" class="pure-menu-link">FAQ</a></li>
+                    <li class="pure-menu-item"><a href="https://blogs.python-gsoc.org/en/"
+                            class="pure-menu-link">Blogs</a></li>
+                    <li class="pure-menu-item"><a href="index.html#contact" class="pure-menu-link">Contact</a></li>
+                </ul>
+            </div>
+        </div> <!-- menu -->
+        <div class="content">
+            <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                <h2 class="content-head content-head is-center">Dates and Deadlines</h2>
+                <p>In general, Python will ask mentors to do things 48h before the <a
+                        href="https://developers.google.com/open-source/gsoc/timeline?hl=en">Google
+                        deadline</a>. This allows our admins
+                    time to make sure that evaluations, etc. are complete and ready for Google when their deadline
+                    comes.
+                    (The whole organization gets penalized if anyone's late, so we make sure that doesn't happen
+                    unfairly.)
+                    Student deadlines are exactly as Google tells you, although getting things done earlier is never a
+                    bad
+                    idea!</p>
+
+                <h2>Mentor and Sub-Org admin deadlines</h2>
+                <p>These are also listed on the calendar at the bottom of this page that you can subscribe to or add to
+                    your own device.</p>
+                PSF-specific deadlines:
+                <ul>
+                    <li>February 3, 2020 - Sub-org application deadline. Please email gsoc-admins@python.org to indicate
+                        interest before this date.</li>
+                    <li>February 29, 2020 - Second sub-org application deadline. This is intended for projects who
+                        applied separately but did not get in,
+                        but we can often take a limited number of other sub-orgs who just missed the early date. Email
+                        gsoc-admins@python.org for details.</li>
+		    <li><div class="warning">Google changed dates to accomodate global pandemic related complications.  The PSF mentor dates below have now been updated to match.</div></li>
+                    <li>April 19, 2020 - Slot request due</li>
+                    <li>April 28, 2020 - Project selections due</li>
+                    <li>July 1, 2020 - Mentor Phase 1 evaluations due</li>
+                    <li>July 29, 2020 - Mentor Phase 2 evaluations due</li>
+                    <li>Sept 5, 2019 - Mentor Final Evaluations Due</li>
+                </ul>
+
+                General GSoC deadlines:
+                <ul>
+
+
+                    <li>June 29, 2020 to July 3, 2020 - First Evaluations</li>
+
+
+
+                    <li>July 27, 2020 to July 31, 2020 - Second Evaluations</li>
+
+
+
+                    <li>Aug. 24, 2020 to Aug. 31, 2020 - Final Student Evaluations</li>
+
+
+
+                    <li>Aug. 31, 2020 to Sept. 7, 2020 - Final Mentor Evaluations</li>
+
+
+
+                    <li>May 4, 2020 - Student Projects Announced</li>
+
+
+
+                    <li>May 4, 2020 to June 1, 2020 - Community Bonding</li>
+
+
+
+                    <li>March 16, 2020 to March 31, 2020 - Student Application Period</li>
+
+
+                </ul>
+
+                <h2>Blogging schedule (Student Deadlines)</h2>
+                <p>Every week, students are asked to post something about their project on their <a
+                        href="https://blogs.python-gsoc.org/en/">blogs</a>. This helps the python community learn about
+                    the work students are doing and also helps the org admins make sure that students still on track to
+                    pass and don't need help. There are two types of things that students post: blog posts, which are
+                    longer descriptions of the work they're doing, and weekly check ins, which answer a few short
+                    questions as a sort of status report. These are due every Monday during the GSoC period, and the
+                    schedule is listed below as a list and as a calendar at the bottom of the page that you can export
+                    and add to your own calendar.</p>
+                <ul>
+
+		    <li><div class="warning">Google changed dates to accomodate global pandemic related complications.  We have updated the blog dates below.</div></li>
+                    <li>June 1, 2020 - Weekly Check-in Due</li>
+
+                    <li>June 8, 2020 - Weekly Blog Post Due</li>
+
+                    <li>June 15, 2020 - Weekly Check-in Due</li>
+
+                    <li>June 22, 2020 - Weekly Blog Post Due</li>
+
+                    <li>June 29, 2020 - Weekly Check-in Due</li>
+
+                    <li><strong>June 29 - July 2 - First Eval Week</strong></li>
+
+                    <li>July 6, 2020 - Weekly Blog Post Due</li>
+
+                    <li>July 13, 2020 - Weekly Check-in Due</li>
+
+                    <li>July 20, 2020 - Weekly Blog Post Due</li>
+
+                    <li>July 27, 2020 - Weekly Check-in Due</li>
+
+                    <li><strong>July 27 - July 30 - Second Eval Week</strong></li>
+
+                    <li>Aug. 3, 2020 - Weekly Blog Post Due</li>
+
+                    <li>Aug. 10, 2020 - Weekly Check-in Due</li>
+
+                    <li>Aug. 17, 2020 - Weekly Blog Post Due</li>
+
+                    <li>Aug. 24, 2020 - Weekly Check-in Due</li>
+
+                    <li><strong>August 24 - 30 - Final Student Eval Week</strong></li>
+                    <li>Aug. 31, 2020 - Weekly Blog Post Due</li>
+
+                    <li><strong>August 31 - September 4  - Final Mentor Eval Week</strong></li>
+                    <li><strong>Sept 8, 2020 - Final Results Announced</strong></li>
+
+                </ul>
+
+                <div class="responsive-iframe-container big-container">
+                    <iframe id="cal1" src="null" width="800" height="600"
+                        style="overflow:hidden;border-width: 0px;"></iframe>
+                </div>
+                <div class="responsive-iframe-container small-container">
+                    <iframe id="cal2" src="null" width="800" height="600"
+                        style="overflow:hidden;border-width: 0px;"></iframe>
+                </div>
+                <a
+                    href="https://calendar.google.com/calendar/ical/6408os9ij9utolbenc2k4qvv94%40group.calendar.google.com/public/basic.ics">iCal
+                    Link</a>
+                <p>Please note <a href="https://developers.google.com/open-source/gsoc/timeline?hl=en">Google's GSoC
+                        dates
+                        and deadlines</a>.</p>
+
+            </div>
+        </div> <!-- content -->
+    </div>
+    <script src="js/ui.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/moment-timezone-with-data-10-year-range.min.js"></script>
+    <script>
+        String.prototype.replaceAll = function (search, replacement) {
+            var target = this;
+            return target.split(search).join(replacement);
+        };
+        var offset = new Date().getTimezoneOffset();
+        var timezone = moment.tz.guess(offset).replaceAll('/', '%2F')
+        cal1Url = `https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23FFFFFF&src=NjQwOG9zOWlqOXV0b2xiZW5jMms0cXZ2OTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23853104&ctz=${timezone}`
+        document.getElementById('cal1').src = cal1Url;
+        cal2Url = `https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23FFFFFF&src=NjQwOG9zOWlqOXV0b2xiZW5jMms0cXZ2OTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23853104&ctz=${timezone}&mode=AGENDA`
+        document.getElementById('cal2').src = cal2Url;
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: #489eba;
+}
+
+.warning {
+    background:  wheat;
+    color: #16536e;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/* Alternate coloured ribbon */
+.ribbon {
+    background: #16536e;
+    color: #ebebeb;
+
+    padding: 1em 1em 3em;
+}
+
+.ribbon a:link {
+    color: #73ffff;
+}
+
+.ribbon a:visited {
+    color: wheat;
+}
+
+.ribbon a:hover {
+    color: hotpink;
+}
+
+.ribbon a:active {
+    color: red;
+}
+
+.warning a:link {
+    color: blue;
+}
+
+.warning a:visited {
+    color: purple;
+}
+/* Menu */
+.custom-restricted-width {
+    display: inline-block;
+}
+
+#menu .pure-menu-heading {
+    background-color:  #16536e;
+}
+#menu .pure-menu-selected {
+    background-color: #489eba;
+}
+
+/* This is the class used for the main content headers (<h2>) */
+.content-head {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+}
+
+/* This is a modifier class used when the content-head is inside a ribbon */
+.content-head-ribbon {
+    color: white !important;
+}
+
+/* This is the class used for the content sub-headers (<h3>) */
+.content-subhead {
+    color: #295E70;
+}
+
+.content-subhead i {
+    margin-right: 7px;
+}
+
+.padded-cell {
+    margin-right: 2em;
+}
+
+.ribbon strong {
+    color: #edecf1;
+}
+
+.logo img {
+    max-height: 150px;
+}
+
+/* Org status bars */
+div.ok {
+	border-bottom: 2px solid #8aab00;
+}
+div.waiting {
+	border-bottom: 2px solid #fecb01;
+}
+div.problem {
+	border-bottom: 2px solid #b44601;
+}
+
+.responsive-img {
+  width: 100%;
+}
