@@ -57,6 +57,9 @@ label {
 #menu .pure-menu-selected {
     background-color: #489eba;
 }
+#menu .pure-menu-warning {
+    background-color:  #f0664a;
+}
 
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
@@ -64,6 +67,12 @@ label {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 2em 0 1em;
+}
+
+/* Mark the top in orange for archived content */
+.header {
+    background: #f0664a;
+    color: #ffffff;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
