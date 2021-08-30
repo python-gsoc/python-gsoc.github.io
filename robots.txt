@@ -3,3 +3,4 @@ User-agent: *
 Disallow: /2019/
 
 Sitemap: https://python-gsoc.org/sitemap.xml
+Disallow: /2021/
