@@ -7,7 +7,7 @@ This refers specifically to all content stored at
 <https://github.com/python-gsoc/python-gsoc.github.io> to be displayed at
 <http://python-gsoc.org/>.
 
-Please note that this does not include the student blogs (available at
+Please note that this does not include the GSoC contributor blogs (available at
 <https://blogs.python-gsoc.org/>) which are the property of the individual
 authors and may have other licenses.
 
