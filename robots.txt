@@ -4,3 +4,4 @@ Disallow: /2019/
 
 Sitemap: https://python-gsoc.org/sitemap.xml
 Disallow: /2021/
+Disallow: /2022/
