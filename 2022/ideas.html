@@ -53,6 +53,20 @@
             <!-- menu -->
 
             <!-- How to apply -->
+            <a id="warning"></a>
+            <div class="content">
+                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                    <h2 class="content-head content-head">Ideas 2022 Archive</h2>
+                    <div class="warning">
+                        <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                            <p>This page is an archive from GSoC 2022. For the latest ideas, please visit <a href="/ideas.html">the main website</a>
+                            </p>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+           </div>
+
             <a id="ideas"></a>
             <div class="content">
                 <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
@@ -328,7 +342,7 @@ CVE Binary Tool">Source Code</a></p>
                         </h2>
                     </div>
                 </div>
-                <br />LPython is an ahead-of-time compiler for Python, that can compile to binaries as well as execute code interactively. The goal is excdellent runtime performance in Release mode as well as speed of compilation in Debug mode.
+                <br />LPython is an ahead-of-time compiler for Python, that can compile to binaries as well as execute code interactively. The goal is excellent runtime performance in Release mode as well as speed of compilation in Debug mode.
                 <div class="pure-g">
                     <div class="pure-u-1 pure-u-md-1">
                         <p>Contact Links</p>
@@ -727,84 +741,6 @@ SciPy wraps highly-optimized implementations written in low-level languages like
                           </div>
         </div>
         <script src="js/ui.js"></script>
-    
-                <style>
-                .modalDialog {
-                    position: fixed;
-                    font-family: Arial, Helvetica, sans-serif;
-                    top: 0;
-                    right: 0;
-                    bottom: 0;
-                    left: 0;
-                    background: rgba(0, 0, 0, 0.8);
-                    z-index: 99999;
-                    opacity: 0;
-                    -webkit-transition: opacity 400ms ease-in;
-                    -moz-transition: opacity 400ms ease-in;
-                    transition: opacity 400ms ease-in;
-                    pointer-events: none;
-                }
-                .modalDialog:target {
-                    opacity: 1;
-                    pointer-events: auto;
-                }
-                .modalDialog > div {
-                    width: 400px;
-                    position: relative;
-                    margin: 10% auto;
-                    padding: 5px 20px 13px 20px;
-                    border-radius: 10px;
-                    background: #fff;
-                    background: -moz-linear-gradient(#fff, #999);
-                    background: -webkit-linear-gradient(#fff, #999);
-                    background: -o-linear-gradient(#fff, #999);
-                }
-                .close {
-                    background: #606061;
-                    color: #ffffff;
-                    line-height: 25px;
-                    position: absolute;
-                    right: -12px;
-                    text-align: center;
-                    top: -10px;
-                    width: 24px;
-                    text-decoration: none;
-                    font-weight: bold;
-                    -webkit-border-radius: 12px;
-                    -moz-border-radius: 12px;
-                    border-radius: 12px;
-                    -moz-box-shadow: 1px 1px 3px #000;
-                    -webkit-box-shadow: 1px 1px 3px #000;
-                    box-shadow: 1px 1px 3px #000;
-                }
-                .close:hover {
-                    background: #00d9ff;
-                }
-                </style>
-
-                <div id="openModal" class="modalDialog">
-                <div>
-                    <a href="#close" title="Close" class="close">X</a>
-                    <h2>Archived</h2>
-                    <p>
-                    This site has been archived, go to
-                    <a target="_blank" href="https://python-gsoc.org/">this link</a> to find
-                    more about the latest GSoC program.
-                    </p>
-                </div>
-                </div>
-
-                <script>
-                let tokens = String(window.location).split("#");
-                if (
-                    tokens.length === 1 &&
-                    tokens[1] !== "openModal" &&
-                    tokens[1] !== "close"
-                ) {
-                    window.location = window.location + "#openModal";
-                }
-                </script>
-                </body>
-            
+    </body>
     
     </html>

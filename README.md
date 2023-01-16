@@ -13,3 +13,21 @@ do the same with the info pages and see how it works out.
 You can view the live webpage at
 http://python-gsoc.github.io
 
+
+Students: Read this!
+====================
+
+Please read [How to get started with
+GSoC](https://python-gsoc.org/index.html#gettingstarted) first!
+
+**This repo is a bad place to look for a first commit during GSoC.** This
+website is not a valid GSoC project because there isn't enough code or changes
+to employ a student for a few months.  You probably want to look at the issue
+trackers for our sub-orgs if you're looking for a good first commit.  [You can
+see the list of python sub-orgs here](https://python-gsoc.org/ideas.html) and
+each one has their own website, issue tracker, getting started instructions and
+so on.  Have fun!
+
+If you're looking between September and February, be aware that the list of
+sub-orgs may not be up to date for the next season of GSoC yet, and mentors may
+be taking a well-deserved break.

@@ -14,11 +14,11 @@ Sample Application Template:
 1. Name (and nicknames like your github and irc usernames)
 2. University / program / year / expected graduation date
 3. Contact info (email, phone, etc.)
-4. Time zone 
+4. Time zone
 5. Link to a resume (if you want)
 
 ## Code contribution
-* Link to a pull request or code sample goes here.  
+* Link to a pull request or code sample goes here.
   * Ideally this should be code submitted to your chosen sub-org as a pull request or patch.
   * It must represent your own work, although you can have help from developers to improve it.
   * It must be publicly visible to your mentors and org admins.
