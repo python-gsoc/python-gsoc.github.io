@@ -1,0 +1,135 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Python's Google Summer of Code Page">
+        <meta name="google-site-verification" content="EVShtJLdVKN58OupOAYPkH6QRA3i-J8q4ZEklgFiZhE" />
+        <title>Python GSoC &ndash; Home</title>
+    	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous" >
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+                crossorigin="anonymous" >
+        <link rel="stylesheet" href="css/side-menu.css">
+        <link rel="stylesheet" href="css/python-gsoc.css">
+    
+        <style>
+            @media (max-width: 550px) {
+                .big-container {
+                    display: none;
+                }
+            }
+            @media (min-width: 550px) {
+                .small-container {
+                    display: none;
+                }
+            }
+            /* Responsive iFrame */
+            .responsive-iframe-container {
+                position: relative;
+                padding-bottom: 56.25%;
+                padding-top: 30px;
+                height: 0;
+                overflow: hidden;
+            }
+            .responsive-iframe-container iframe,
+            .vresponsive-iframe-container object,
+            .vresponsive-iframe-container embed {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <!-- Menu toggle -->
+        <a href="#menu" id="menuLink" class="menu-link">
+            <!-- Hamburger icon -->
+            <span></span>
+        </a>
+    
+        <div id="layout">
+            <div id="menu">
+                <div class="pure-menu">
+                    <a class="pure-menu-heading" href="http://python-gsoc.org">Python GSoC</a>
+    
+                    <ul class="pure-menu-list">
+                        <li class="pure-menu-item"><a href="index.html#gettingstarted" class="pure-menu-link">Getting
+                                Started</a></li>
+                        <li class="pure-menu-item"><a href="contributors.html" class="pure-menu-link">Contributors</a></li>
+                        <li class="pure-menu-item"><a href="mentors.html" class="pure-menu-link">Mentors</a></li>
+                        <li class="pure-menu-item"><a href="ideas.html" class="pure-menu-link">Project Ideas</a></li>
+                        <li class="pure-menu-item"><a href="deadlines.html" class="pure-menu-link">Deadlines</a></li>
+                        <li class="pure-menu-item"><a href="contributors.html#faq" class="pure-menu-link">FAQ</a></li>
+                        <li class="pure-menu-item"><a href="mentors.html#sub-orgs" class="pure-menu-link">Info for Sub-orgs</a></li>
+                        <li class="pure-menu-item"><a href="blogs.html" class="pure-menu-link">Blogs</a></li>
+
+                        <li class="pure-menu-item"><a href="index.html#contact" class="pure-menu-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div> <!-- menu -->
+            <div class="content">
+                <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+                    <h2 class="content-head content-head is-center">Dates and Deadlines</h2>
+                    <p>In general, Python will ask mentors to do things before the <a href="https://developers.google.com/open-source/gsoc/timeline?hl=en">Google
+                            deadline</a>. This allows our admins
+                        time to make sure that evaluations, etc. are complete and ready for Google when their deadline
+                        comes.
+                        (The whole organization gets penalized if anyone's late, so we make sure that doesn't happen
+                        unfairly.)
+                        Contributor deadlines are exactly as Google tells you, although getting things done earlier is never a
+                        bad
+                        idea!</p>
+    
+                    <h2>Mentor and Sub-Org admin deadlines</h2>
+			<ul>
+				<li>Feb. 9, 2025 - 1st deadline for sub-org applications (for new folk and folk who want to appear on our ideas page as seen in our Google application).</li>
+				<li>Feb. 27, 2025 - Python knows if it has been accepted as a GSoC mentoring organization.</li>
+				<li>March 22, 2025 - 2nd deadline for sub-orgs who applied separately but did not get accepted who want to join the Python umbrella</li>
+				<li>March 24, 2025 - Contributor application period begins</li>
+				<li>April 8, 2025 - Contributor application period ends</li>
+				<li>April 27, 2025 - Proposal rankings due to Python</li>
+				<li>May 8, 2025 - Accepted Contributor projects announced</li>
+				<li>May 8 - June 1, 2025 - Community Bonding Period</li>
+				<li>June 2, 2025 - Coding Officially begins!</li>
+				<li>July 16, 2025 - Midterm evaluations due to Python (standard schedule)</li>
+				<li>September 6, 2025 - Final evaluations due to Python (standard schedule)</li>
+				<li>Nov. 15, 2025 - Final evaluations due to Python (extended deadline)</li>
+			</ul>
+    
+    
+                    <p>
+			Please note
+			<a href="https://developers.google.com/open-source/gsoc/timeline?hl=en">
+				Google's GSoC dates and deadlines</a>.
+		    </p>
+                </div>
+            </div> <!-- content -->
+        </div>
+        <script src="js/ui.js"></script>
+        <script src="js/moment.min.js"></script>
+        <script src="js/moment-timezone-with-data-10-year-range.min.js"></script>
+        <script>
+            String.prototype.replaceAll = function(search, replacement) {
+                var target = this;
+                return target.split(search).join(replacement);
+            };
+            var offset = new Date().getTimezoneOffset();
+            var timezone = moment.tz.guess(offset).replaceAll('/', '%2F')
+            cal1Url = `https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23FFFFFF&src=gbnrvjn3uci0jb6gur6utombd8%40group.calendar.google.com&color=%23853104&ctz=${timezone}`
+            document.getElementById('cal1').src = cal1Url;
+            cal2Url = `https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23FFFFFF&src=gbnrvjn3uci0jb6gur6utombd8%40group.calendar.google.com&color=%23853104&ctz=${timezone}&mode=AGENDA`
+            document.getElementById('cal2').src = cal2Url;
+    
+    
+        </script>
+    </body>
+    
+    </html>
